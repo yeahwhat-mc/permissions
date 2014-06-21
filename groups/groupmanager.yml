@@ -1,0 +1,45 @@
+g:groupmanager_default:
+    permissions:
+    - groupmanager.notify.self
+    - groupmanager.manwhois
+
+g:groupmanager_guard:
+    permissions:
+    - groupmanager.manuadd
+    - groupmanager.manudel
+    - groupmanager.manuaddsub
+    - groupmanager.manudelsub
+    - groupmanager.mandemote
+    - groupmanager.manpromote
+    - groupmanager.manulistp
+    - groupmanager.manucheckp
+    - groupmanager.manulistv
+    - groupmanager.manucheckv
+    - groupmanager.listgroups
+    - groupmanager.manglistp
+    - groupmanager.mangcheckp
+    - groupmanager.manglistv
+    - groupmanager.mangckeckv
+    - groupmanager.manselect
+    - groupmanager.manclear
+    - groupmanager.notify.other
+
+g:groupmanager_admin:
+    permissions:
+    - groupmanager.manuaddp
+    - groupmanager.manudelp
+    - groupmanager.manuaddv
+    - groupmanager.manudelv
+    - groupmanager.mangadd
+    - groupmanager.mangdel
+    - groupmanager.mangaddi
+    - groupmanager.mangdeli
+    - groupmanager.mangaddp
+    - groupmanager.mangdelp
+    - groupmanager.mangaddv
+    - groupmanager.mangdelv
+    - groupmanager.mansave
+    - groupmanager.manload
+    - groupmanager.mantogglevalidate
+    - groupmanager.mantogglesave
+    - groupmanager.mancheckw

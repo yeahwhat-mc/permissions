@@ -1,0 +1,8 @@
+groups:
+  Builder:
+    permissions:
+    - -blacklist.tnt
+
+  Guard:
+    permissions:
+    - +blacklist.tnt

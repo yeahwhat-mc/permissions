@@ -1,0 +1,127 @@
+g:craftbook_default:
+    permissions:
+    - craftbook.mech.chair.use
+
+g:craftbook_builder:
+    permissions:
+    - craftbook.mech.ammeter.use
+    - craftbook.mech.lightstone.use
+    - craftbook.mech.bridge
+    - craftbook.mech.bridge.use
+    - craftbook.mech.bridge.restock
+    - craftbook.mech.door
+    - craftbook.mech.door.use
+    - craftbook.mech.door.restock
+    - craftbook.mech.elevator
+    - craftbook.mech.elevator.use
+    - craftbook.mech.gate
+    - craftbook.mech.dgate
+    - craftbook.mech.gate.use
+    - craftbook.mech.gate.restock
+    - craftbook.mech.hiddenswitch
+    - craftbook.mech.hiddenswitch.use
+    - craftbook.mech.paintingswitch.use
+    - craftbook.mech.bookshelf.use
+    - craftbook.mech.signcopy.use
+    - craftbook.mech.signcopy.edit
+    - craftbook.mech.teleporter.use
+    - craftbook.circuits.pipes
+
+g:craftbook_builder_creative:
+    permissions:
+    - craftbook.mech.teleporter
+
+g:craftbook_trusted:
+    permissions:
+    - craftbook.vehicles.deposit
+    - craftbook.vehicles.dispenser
+    - craftbook.vehicles.ejector
+    - craftbook.vehicles.messager
+    - craftbook.vehicles.reverser
+    - craftbook.vehicles.sorter
+    - craftbook.vehicles.station
+
+g:craftbook_trusted_creative:
+    permissions:
+    - craftbook.mech.pistons.bounce
+    - craftbook.mech.pistons.crush
+    - craftbook.vehicles.teleporter
+    - craftbook.vehicles.cartlift
+
+g:craftbook_mod:
+    permissions:
+    - craftbook.variables.define
+    - craftbook.variables.define.self
+    - craftbook.variables.define.namespace
+    - craftbook.variables.get
+    - craftbook.variables.get.self
+    - craftbook.variables.get.namespace
+    - craftbook.variables.erase
+    - craftbook.variables.erase.self
+    - craftbook.variables.erase.namespace
+    - craftbook.variables.modify
+    - craftbook.variables.modify.self
+    - craftbook.variables.modify.namespace
+    - craftbook.variables.modify.variable
+    - craftbook.variables.modify.self.variable
+    - craftbook.variables.modify.namespace.variable
+    - craftbook.variables.use
+    - craftbook.variables.use.self
+    - craftbook.variables.use.namespace
+    - craftbook.variables.use.variable
+    - craftbook.variables.use.self.variable
+    - craftbook.variables.use.namespace.variable
+    - craftbook.variables.chat
+    - craftbook.variables.commands
+    - craftbook.mech.bridge.infinite
+    - craftbook.mech.door.infinite
+    - craftbook.mech.gate.infinite
+    - craftbook.mech.teleporter
+    - craftbook.mech.pistons.bounce
+    - craftbook.mech.pistons.crush
+    - craftbook.vehicles.teleporter
+
+g:craftbook_admin:
+    permissions:
+    - craftbook.reload
+    - craftbook.update
+    - craftbook.mech.chunk
+    - craftbook.mech.command
+    - craftbook.mech.command.use
+
+#- craftbook.mech.pistons.supersticky
+#- craftbook.mech.pistons.superpush
+#- craftbook.mech.cauldron.use
+#- craftbook.mech.cauldron.recipe.recipe name
+#- craftbook.mech.commanditems
+#- craftbook.mech.commanditems.bypasscooldown
+#- craftbook.mech.commanditems.give.command item name
+#- craftbook.mech.cook
+#- craftbook.mech.cook.refuel
+#- craftbook.mech.drops
+#- craftbook.mech.footprints.use
+#- craftbook.mech.footprints.see
+#- craftbook.mech.headdrops.kill
+#- craftbook.mech.headdrops.break
+#- craftbook.mech.cauldron
+#- craftbook.mech.light-switch
+#- craftbook.mech.light-switch.use
+#- craftbook.mech.map
+#- craftbook.mech.map.use
+#- craftbook.mech.pay
+#- craftbook.mech.pay.use
+#- craftbook.mech.area.sign.area
+#- craftbook.mech.area.sign.savearea
+#- craftbook.mech.area.use
+#- craftbook.mech.area.save.namespace
+#- craftbook.mech.area.save.self
+#- craftbook.mech.area.list.namespace
+#- craftbook.mech.area.list.all
+#- craftbook.mech.area.list.self
+#- craftbook.mech.area.command.toggle
+#- craftbook.mech.area.delete.namespace
+#- craftbook.mech.area.delete.self
+#- craftbook.mech.area.delete.namespace.all
+#- craftbook.mech.treelopper.use
+#- craftbook.mech.treelopper.sapling
+#- craftbook.mech.xpstore.use

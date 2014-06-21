@@ -1,0 +1,131 @@
+groups:
+  Admin:
+    default: false
+    info:
+      build: true
+      prefix: '&7[Admin]&c'
+      suffix: '&r'
+    inheritance:
+    - g:multiverse_admin
+    - g:worldguard_admin
+    - g:logblock_admin
+    - g:multiverse-inv_admin
+    - g:bukkit_admin
+    - g:multiverse-nether_admin
+    - g:nocheat_admin
+    - g:banman_admin
+    - g:border_admin
+    - g:groupmanager_admin
+    - Moderator
+    permissions: []
+  Builder:
+    default: false
+    info:
+      build: true
+      prefix: '&7[Builder]&2'
+      suffix: '&r'
+    inheritance:
+    - g:worldguard_builder
+    - g:bukkit_builder
+    - Guest
+    permissions:
+    - -essentials.tpa
+    - -essentials.tpaccept
+    - -essentials.tpdeny
+    - -vote.voteyes.night
+    - -vote.voteyes.day
+    - -vote.voteyes.rain
+    - -vote.voteyes.sun
+    - -vote.voteno.night
+    - -vote.voteno.day
+    - -vote.voteno.rain
+    - -vote.voteno.sun
+    - -vote.startvote.night
+    - -vote.startvote.day
+    - -vote.startvote.rain
+    - -vote.startvote.sun
+    - -lwc.protect
+  Donator:
+    default: false
+    info:
+      build: true
+      prefix: '&7[$$$]&6'
+      suffix: '&r'
+    inheritance:
+    - Trusted
+    permissions: []
+  Guard:
+    default: false
+    info:
+      build: true
+      prefix: '&7[Guard]&b'
+      suffix: '&r'
+    inheritance:
+    - g:multiverse_guard
+    - g:bukkit_guard
+    - g:banman_guard
+    - g:groupmanager_guard
+    - g:lwc_guard
+    - g:worldguard_guard
+    - g:multiverse-nether_guard
+    - g:blacklist_guard
+    - g:logblock_guard
+    - g:nocheat_guard
+    - g:multiverse-inv_guard
+    - Trusted
+    permissions: []
+  Guest:
+    default: true
+    info:
+      build: false
+      prefix: '&7[Guest]&e'
+      suffix: '&r'
+    inheritance:
+    - g:banman_default
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:multiverse_default
+    permissions:
+    - -essentials.back
+    - -essentials.back.ondeath
+    - essentials.spawn
+  Moderator:
+    default: false
+    info:
+      build: true
+      prefix: '&7[Mod]&3'
+      suffix: '&r'
+    inheritance:
+    - g:multiverse_mod
+    - g:bukkit_mod
+    - g:nocheat_mod
+    - g:logblock_mod
+    - g:banman_mod
+    - g:blacklist_mod
+    - g:worldguard_mod
+    - Guard
+    permissions: []
+  Owner:
+    default: false
+    info:
+      build: true
+      prefix: '&7[Owner]&c'
+      suffix: '&r'
+    inheritance:
+    - Admin
+    permissions: []
+  Trusted:
+    default: false
+    info:
+      build: true
+      prefix: '&7[Trusted]&a'
+      suffix: '&r'
+    inheritance:
+    - g:border_trusted
+    - g:bukkit_trusted
+    - g:logblock_trusted
+    - g:nocheat_trusted
+    - g:multiverse_trusted
+    - g:banman_trusted
+    - Builder
+    permissions: []

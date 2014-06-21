@@ -1,0 +1,32 @@
+g:nocheat_trusted:
+    permissions:
+    - nocheatplus.command.lag
+    - nocheatplus.command.plugins
+    - nocheatplus.command.version
+    - nocheatplus.command.commands
+
+g:nocheat_guard:
+    permissions:
+    - nocheatplus.command.notify
+    - nocheatplus.command.info
+    - nocheatplus.command.exemptions
+    - nocheatplus.command.delay
+    - nocheatplus.bypass.denylogin
+
+g:nocheat_mod:
+    permissions:
+    - nocheatplus.command.exempt
+    - nocheatplus.command.unexempt
+    - nocheatplus.command.removeplayer
+
+g:nocheat_admin:
+    permissions:
+    - nocheatplus.admin
+    - nocheatplus.command.reload
+
+#- nocheatplus.command.ban
+#- nocheatplus.command.kick
+#- nocheatplus.command.tell
+#- nocheatplus.command.tempkick
+#- nocheatplus.command.unkick
+#- nocheatplus.command.kicklist

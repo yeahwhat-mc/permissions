@@ -1,0 +1,21 @@
+g:logblock_trusted:
+    permissions:
+    - logblock.me
+
+g:logblock_guard:
+    permissions:
+    - logblock.lookup
+    - logblock.tp
+    - logblock.spawnTools
+    - logblock.tools.toolblock
+    - logblock.tools.tool
+
+g:logblock_mod:
+    permissions:
+    - logblock.rollback
+
+g:logblock_admin:
+    permissions:
+    - logblock.clearlog
+    - logblock.hide
+    - logblock.ignoreRestrictions

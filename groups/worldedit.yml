@@ -1,0 +1,129 @@
+g:worldedit_default:
+    permissions:
+    - worldedit.navigation.unstuck
+    - worldedit.help
+
+g:worldedit_builder:
+    permissions:
+    - worldedit.biome.info
+    - worldedit.biome.list
+    - worldedit.chunkinfo
+    - worldedit.listchunks
+    - worldedit.tool.info
+
+g:worldedit_donator_creative:
+    permissions:
+    - worldedit.navigation.jumpto.tool
+    - worldedit.navigation.thru.tool
+
+g:worldedit_guard:
+    permissions:
+    - worldedit.navigation.ascend
+    - worldedit.navigation.descend
+    - worldedit.navigation.ceiling
+    - worldedit.navigation.thru.command
+    - worldedit.navigation.jumpto.command
+    - worldedit.navigation.up
+    - worldedit.wand
+    - worldedit.wand.toggle
+    - worldedit.selection.chunk
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldedit.selection.contract
+    - worldedit.selection.outset
+    - worldedit.selection.inset
+    - worldedit.selection.expand
+    - worldedit.selection.shift
+    - worldedit.selection.size
+    - worldedit.analysis.distr
+    - worldedit.analysis.count
+    - worldedit.superpickaxe
+    - worldedit.extinguish
+    - worldedit.butcher
+    - worldedit.remove
+    - worldedit.limit
+    - worldedit.navigation.jumpto.tool
+    - worldedit.navigation.thru.tool
+
+g:worldedit_mod:
+    permissions:
+    - worldedit.biome.set
+    - worldedit.delchunks
+    - worldedit.clipboard.cut
+    - worldedit.clipboard.paste
+    - worldedit.clipboard.clear
+    - worldedit.clipboard.load
+    - worldedit.clipboard.save
+    - worldedit.clipboard.copy
+    - worldedit.clipboard.flip
+    - worldedit.clipboard.rotate
+    - worldedit.schematic.formats
+    - worldedit.schematic.load
+    - worldedit.schematic.list
+    - worldedit.schematic.save
+    - worldedit.fast
+    - worldedit.generation.cylinder
+    - worldedit.generation.sphere
+    - worldedit.generation.forest
+    - worldedit.generation.pumpkins
+    - worldedit.generation.pyramid
+    - worldedit.generation.shape
+    - worldedit.history.undo
+    - worldedit.history.redo
+    - worldedit.history.clear
+    - worldedit.region.hollow
+    - worldedit.region.line
+    - worldedit.region.curve
+    - worldedit.region.overlay
+    - worldedit.region.center
+    - worldedit.region.naturalize
+    - worldedit.region.walls
+    - worldedit.region.faces
+    - worldedit.region.smooth
+    - worldedit.region.move
+    - worldedit.regen
+    - worldedit.region.deform
+    - worldedit.region.forest
+    - worldedit.region.replace
+    - worldedit.region.stack
+    - worldedit.region.set
+    - worldedit.scripting.execute
+    - worldedit.snapshots.list
+    - worldedit.snapshots.restore
+    - worldedit.superpickaxe.area
+    - worldedit.superpickaxe.recursive
+    - worldedit.tool.tree
+    - worldedit.tool.replacer
+    - worldedit.tool.data-cycler
+    - worldedit.tool.flood-fill
+    - worldedit.tool.deltree
+    - worldedit.tool.farwand
+    - worldedit.tool.lrbuild
+    - worldedit.brush.sphere
+    - worldedit.brush.cylinder
+    - worldedit.brush.clipboard
+    - worldedit.brush.smooth
+    - worldedit.brush.ex
+    - worldedit.brush.gravity
+    - worldedit.brush.butcher
+    - worldedit.brush.options.material
+    - worldedit.brush.options.range
+    - worldedit.brush.options.size
+    - worldedit.brush.options.mask
+    - worldedit.fill.recursive
+    - worldedit.drain
+    - worldedit.fixlava
+    - worldedit.fixwater
+    - worldedit.removeabove
+    - worldedit.removebelow
+    - worldedit.removenear
+    - worldedit.replacenear
+    - worldedit.snow
+    - worldedit.thaw
+    - worldedit.green
+    - worldedit.fill
+
+g:worldedit_admin:
+    permissions:
+    - worldedit.reload
+    - worldedit.global-mask

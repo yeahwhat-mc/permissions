@@ -1,0 +1,13 @@
+g:chestshop_builder:
+    permissions:
+    - ChestShop.shop.create.*
+    - ChestShop.shop.buy
+    - ChestShop.shop.sell
+
+g:chestshop_guard:
+    permissions:
+    - ChestShop.mod
+
+g:chestshop_mod:
+    permissions:
+    - ChestShop.admin

@@ -1,0 +1,84 @@
+g:multiverse_default:
+    permissions:
+    - multiverse.help
+    - multiverse.teleport.self.w
+    - multiverse.teleport.self.p
+    - multiverse.core.confirm
+    - multiverse.core.coord
+    - multiverse.core.list.who
+    - multiverse.core.list.worlds
+    - multiverse.core.spawn.self
+    - multiverse.core.sleep
+    - multiverse.portal.access.*
+
+g:multiverse_trusted:
+    permissions:
+    - multiverse.core.info
+    - multiverse.core.list.environments
+    - multiverse.core.version
+
+g:multiverse_guard:
+    permissions:
+    - multiverse.teleport.other.w
+    - multiverse.teleport.self.a
+    - multiverse.teleport.other.a
+    - multiverse.teleport.self.e
+    - multiverse.teleport.other.e
+    - multiverse.teleport.other.pl
+    - multiverse.teleport.self.ca
+    - multiverse.teleport.other.ca
+    - multiverse.teleport.self.b
+    - multiverse.teleport.other.b
+    - multiverse.teleport.other.p
+    - multiverse.core.spawn.other
+    - multiverse.core.purge
+
+g:multiverse_mod:
+    permissions:
+    - multiverse.core.anchor
+
+g:multiverse_admin:
+    permissions:
+    - multiverse.core.create
+    - multiverse.core.import
+    - multiverse.core.delete
+    - multiverse.core.remove
+    - multiverse.core.load
+    - multiverse.core.unload
+    - multiverse.core.modify
+    - multiverse.core.modify.add
+    - multiverse.core.modify.clear
+    - multiverse.core.modify.modify
+    - multiverse.core.modify.remove
+    - multiverse.core.modify.set
+    - multiverse.core.reload
+    - multiverse.core.spawn.set
+    - multiverse.core.config
+    - multiverse.core.debug
+    - multiverse.core.generator
+    - multiverse.core.silent
+    - multiverse.core.gamerule.set
+
+g:multiverse-inv_guard:
+    permissions:
+    - multiverse.inventories.info
+    - multiverse.inventories.list
+
+g:multiverse-inv_admin:
+    permissions:
+    - multiverse.inventories.group
+    - multiverse.inventories.import
+    - multiverse.inventories.reload
+
+g:multiverse-nether_guard:
+    permissions:
+    - multiverse.netherportals.show
+
+g:multiverse-nether_admin:
+    permissions:
+    - multiverse.netherportals.link
+    - multiverse.netherportals.unlink
+
+#- multiverse.access.NAME
+#- multiverse.exempt.NAME
+#- mv.bypass.gamemode.NAME

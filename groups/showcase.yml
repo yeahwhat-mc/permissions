@@ -1,0 +1,4 @@
+g:scs_guard:
+    permissions:
+    - scs.admin
+    - scs.create.display

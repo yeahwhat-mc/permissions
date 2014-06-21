@@ -1,0 +1,17 @@
+g:animals_default:
+    permissions:
+    - ProtectAnimals.bypass.exit
+    - ProtectAnimals.bypass.ride
+
+g:animals_trusted:
+    permissions:
+    - ProtectAnimals.info
+
+g:animals_guard:
+    permissions:
+    - ProtectAnimals.bypass.*
+
+g:animals_admin:
+    permissions:
+    - ProtectAnimals.reload
+    - ProtectAnimals.update

@@ -1,0 +1,67 @@
+g:dynmap_builder:
+    permissions:
+    - dynmap.webregister
+    - dynmap.webchat
+
+g:dynmap_trusted:
+    permissions:
+    - dynmap.show.self
+    - dynmap.hide.self
+    - dynmap.stats
+    - dynmap.sendtoweb
+    - dynmap.marker.list
+
+g:dynmap_guard:
+    permissions:
+    - dynmap.show.others
+    - dynmap.hide.others
+    - dynmap.ids-for-ip
+    - dynmap.ips-for-id
+    - dynmap.playermarkers.showall
+
+g:dynmap_mod:
+    permissions:
+    - dynmap.marker.add
+    - dynmap.marker.movehere
+    - dynmap.marker.update
+    - dynmap.marker.delete
+    - dynmap.marker.icons
+    - dynmap.marker.addset
+    - dynmap.marker.updateset
+    - dynmap.marker.deleteset
+    - dynmap.marker.listsets
+    - dynmap.marker.addicon
+    - dynmap.marker.updateicon
+    - dynmap.marker.deleteicon
+    - dynmap.marker.addarea
+    - dynmap.marker.updatearea
+    - dynmap.marker.deletearea
+    - dynmap.marker.listareas
+    - dynmap.marker.addline
+    - dynmap.marker.updateline
+    - dynmap.marker.deleteline
+    - dynmap.marker.listlines
+    - dynmap.dmap.worldlist
+    - dynmap.dmap.perspectivelist
+    - dynmap.dmap.shaderlist
+    - dynmap.dmap.lightinglist
+    - dynmap.webregister.other
+    - dynmap.add-id-for-ip
+    - dynmap.del-id-for-ip
+
+g:dynmap_admin:
+    permissions:
+    - dynmap.render
+    - dynmap.fullrender
+    - dynmap.radiusrender
+    - dynmap.updaterender
+    - dynmap.cancelrender
+    - dynmap.pause
+    - dynmap.reload
+    - dynmap.resetstats
+    - dynmap.purgequeue
+    - dynmap.dmap.worldset
+    - dynmap.dmap.worldreset
+    - dynmap.dmap.mapdelete
+    - dynmap.dmap.mapset
+    - dynmap.dmap.mapadd

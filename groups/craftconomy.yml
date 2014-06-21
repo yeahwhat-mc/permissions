@@ -1,0 +1,50 @@
+g:craftconomy_builder:
+    permissions:
+    - craftconomy.money.balance
+    - craftconomy.money.pay
+    - craftconomy.money.log
+    - craftconomy.bank.create
+    - craftconomy.bank.balance
+    - craftconomy.bank.deposit
+    - craftconomy.bank.perm
+    - craftconomy.bank.withdraw
+    - craftconomy.bank.list
+    - craftconomy.currency.info
+
+g:craftconomy_guard:
+    permissions:
+    - craftconomy.money.top
+    - craftconomy.money.log.others
+    - craftconomy.money.give
+    - craftconomy.money.set
+    - craftconomy.money.take
+    - craftconomy.bank.give
+    - craftconomy.bank.set
+    - craftconomy.bank.take
+    - craftconomy.bank.perm.others
+    - craftconomy.bank.balance.others
+    - craftconomy.money.balance.others
+
+g:craftconomy_mod:
+    permissions:
+    - craftconomy.account.create
+    - craftconomy.account.delete
+    - craftconomy.bank.delete
+
+g:craftconomy_admin:
+    permissions:
+    - craftconomy.setup
+    - craftconomy.money.infinite
+    - craftconomy.currency.add
+    - craftconomy.currency.delete
+    - craftconomy.currency.edit
+    - craftconomy.currency.default
+    - craftconomy.payday.command.create
+    - craftconomy.payday.command.modify
+    - craftconomy.payday.command.delete
+    - craftconomy.config.longmode
+    - craftconomy.config.bankprice
+    - craftconomy.config.holdings
+    - craftconomy.group.addworld
+    - craftconomy.group.create
+    - craftconomy.group.delworld
