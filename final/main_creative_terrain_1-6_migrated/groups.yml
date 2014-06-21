@@ -6,27 +6,27 @@ groups:
       prefix: '&7[Admin]&c'
       suffix: '&r'
     inheritance:
-    - g:scs_admin
-    - g:multiverse-inv_admin
-    - g:worldedit_admin
-    - g:worldguard_admin
-    - g:vanish_admin
-    - g:nocheat_admin
+    - Moderator
     - g:animals_admin
-    - g:multiverse-nether_admin
-    - g:groupmanager_admin
-    - g:logblock_admin
-    - g:dynmap_admin
-    - g:craftconomy_admin
-    - g:vote_admin
-    - g:essentials_admin
-    - g:border_admin
-    - g:xpbank_admin
     - g:banman_admin
-    - g:multiverse_admin
+    - g:border_admin
     - g:bukkit_admin
     - g:craftbook_admin
-    - Moderator
+    - g:craftconomy_admin
+    - g:dynmap_admin
+    - g:essentials_admin
+    - g:groupmanager_admin
+    - g:logblock_admin
+    - g:multiverse-inv_admin
+    - g:multiverse-nether_admin
+    - g:multiverse_admin
+    - g:nocheat_admin
+    - g:scs_admin
+    - g:vanish_admin
+    - g:vote_admin
+    - g:worldedit_admin
+    - g:worldguard_admin
+    - g:xpbank_admin
     permissions: []
   Builder:
     default: false
@@ -35,23 +35,23 @@ groups:
       prefix: '&7[Builder]&2'
       suffix: '&r'
     inheritance:
-    - g:craftbookic_builder
+    - Guest
     - g:bukkit_builder
-    - g:lwc_builder
-    - g:essentials_builder
-    - g:worldguard_builder
+    - g:bukkit_builder_creative
+    - g:chestshop_builder
     - g:craftbook_builder
+    - g:craftbook_builder_creative
+    - g:craftbookic_builder
     - g:craftconomy_builder
-    - g:xpbank_builder
     - g:dynmap_builder
+    - g:essentials_builder
+    - g:essentials_builder_creative
+    - g:lwc_builder
     - g:vote_builder
     - g:worldedit_builder
-    - g:chestshop_builder
-    - Guest
-    - g:essentials_builder_creative
-    - g:craftbook_builder_creative
-    - g:bukkit_builder_creative
+    - g:worldguard_builder
     - g:worldguard_builder_creative
+    - g:xpbank_builder
     permissions:
     - -blacklist.tnt
   Donator:
@@ -61,9 +61,9 @@ groups:
       prefix: '&7[$$$]&6'
       suffix: '&r'
     inheritance:
-    - g:essentials_donator
-    - g:disguise_donator
     - Trusted
+    - g:disguise_donator
+    - g:essentials_donator
     - g:essentials_donator_creative
     - g:worldedit_donator_creative
     permissions: []
@@ -74,29 +74,29 @@ groups:
       prefix: '&7[Guard]&b'
       suffix: '&r'
     inheritance:
+    - Trusted
+    - g:animals_guard
     - g:banman_guard
-    - g:scs_guard
-    - g:vanish_guard
+    - g:blacklist_guard
+    - g:bukkit_guard
+    - g:chestshop_guard
+    - g:craftconomy_guard
     - g:disguise_guard
     - g:dynmap_guard
-    - g:lwc_guard
-    - g:chestshop_guard
-    - g:groupmanager_guard
-    - g:blacklist_guard
     - g:essentials_guard
-    - g:worldguard_guard
-    - g:animals_guard
-    - g:craftconomy_guard
-    - g:nocheat_guard
-    - g:multiverse-inv_guard
+    - g:groupmanager_guard
     - g:logblock_guard
-    - g:multiverse_guard
-    - g:vote_guard
+    - g:lwc_guard
+    - g:multiverse-inv_guard
     - g:multiverse-nether_guard
-    - g:xpbank_guard
+    - g:multiverse_guard
+    - g:nocheat_guard
+    - g:scs_guard
+    - g:vanish_guard
+    - g:vote_guard
     - g:worldedit_guard
-    - g:bukkit_guard
-    - Trusted
+    - g:worldguard_guard
+    - g:xpbank_guard
     permissions:
     - +blacklist.tnt
   Guest:
@@ -106,15 +106,15 @@ groups:
       prefix: '&7[Guest]&e'
       suffix: '&r'
     inheritance:
-    - g:bukkit_default
-    - g:disguise_default
-    - g:groupmanager_default
     - g:animals_default
-    - g:craftbook_default
-    - g:worldedit_default
     - g:banman_default
-    - g:multiverse_default
+    - g:bukkit_default
+    - g:craftbook_default
+    - g:disguise_default
     - g:essentials_default
+    - g:groupmanager_default
+    - g:multiverse_default
+    - g:worldedit_default
     permissions: []
   Moderator:
     default: false
@@ -123,24 +123,24 @@ groups:
       prefix: '&7[Mod]&3'
       suffix: '&r'
     inheritance:
-    - g:dynmap_mod
-    - g:logblock_mod
-    - g:blacklist_mod
-    - g:banman_mod
-    - g:essentials_mod
-    - g:craftbook_mod
-    - g:craftconomy_mod
-    - g:worldguard_mod
-    - g:nocheat_mod
-    - g:bukkit_mod
-    - g:multiverse_mod
-    - g:xpbank_mod
-    - g:lwc_mod
-    - g:disguise_mod
-    - g:worldedit_mod
-    - g:craftbookic_mod
-    - g:chestshop_mod
     - Guard
+    - g:banman_mod
+    - g:blacklist_mod
+    - g:bukkit_mod
+    - g:chestshop_mod
+    - g:craftbook_mod
+    - g:craftbookic_mod
+    - g:craftconomy_mod
+    - g:disguise_mod
+    - g:dynmap_mod
+    - g:essentials_mod
+    - g:logblock_mod
+    - g:lwc_mod
+    - g:multiverse_mod
+    - g:nocheat_mod
+    - g:worldedit_mod
+    - g:worldguard_mod
+    - g:xpbank_mod
     permissions: []
   Owner:
     default: false
@@ -158,20 +158,20 @@ groups:
       prefix: '&7[Trusted]&a'
       suffix: '&r'
     inheritance:
-    - g:logblock_trusted
+    - Builder
     - g:animals_trusted
-    - g:lwc_trusted
-    - g:dynmap_trusted
-    - g:craftbook_trusted
-    - g:essentials_trusted
     - g:banman_trusted
-    - g:craftbookic_trusted
-    - g:nocheat_trusted
+    - g:blacklist_trusted_creative
     - g:border_trusted
     - g:bukkit_trusted
-    - g:multiverse_trusted
-    - Builder
-    - g:blacklist_trusted_creative
-    - g:craftbookic_trusted_creative
+    - g:craftbook_trusted
     - g:craftbook_trusted_creative
+    - g:craftbookic_trusted
+    - g:craftbookic_trusted_creative
+    - g:dynmap_trusted
+    - g:essentials_trusted
+    - g:logblock_trusted
+    - g:lwc_trusted
+    - g:multiverse_trusted
+    - g:nocheat_trusted
     permissions: []

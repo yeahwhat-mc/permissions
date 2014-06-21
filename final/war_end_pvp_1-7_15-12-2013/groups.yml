@@ -6,19 +6,19 @@ groups:
       prefix: '&7[Admin]&c'
       suffix: '&r'
     inheritance:
-    - g:scs_admin
-    - g:multiverse-inv_admin
-    - g:worldguard_admin
-    - g:vanish_admin
-    - g:nocheat_admin
-    - g:multiverse-nether_admin
+    - Moderator
+    - g:banman_admin
+    - g:border_admin
+    - g:bukkit_admin
     - g:groupmanager_admin
     - g:logblock_admin
-    - g:border_admin
-    - g:banman_admin
+    - g:multiverse-inv_admin
+    - g:multiverse-nether_admin
     - g:multiverse_admin
-    - g:bukkit_admin
-    - Moderator
+    - g:nocheat_admin
+    - g:scs_admin
+    - g:vanish_admin
+    - g:worldguard_admin
     permissions: []
   Builder:
     default: false
@@ -27,26 +27,26 @@ groups:
       prefix: '&7[Builder]&2'
       suffix: '&r'
     inheritance:
+    - Guest
     - g:bukkit_builder
     - g:worldguard_builder
-    - Guest
     permissions:
     - -essentials.tpa
     - -essentials.tpaccept
     - -essentials.tpdeny
-    - -vote.voteyes.night
-    - -vote.voteyes.day
-    - -vote.voteyes.rain
-    - -vote.voteyes.sun
-    - -vote.voteno.night
-    - -vote.voteno.day
-    - -vote.voteno.rain
-    - -vote.voteno.sun
-    - -vote.startvote.night
+    - -lwc.protect
     - -vote.startvote.day
+    - -vote.startvote.night
     - -vote.startvote.rain
     - -vote.startvote.sun
-    - -lwc.protect
+    - -vote.voteno.day
+    - -vote.voteno.night
+    - -vote.voteno.rain
+    - -vote.voteno.sun
+    - -vote.voteyes.day
+    - -vote.voteyes.night
+    - -vote.voteyes.rain
+    - -vote.voteyes.sun
   Donator:
     default: false
     info:
@@ -63,19 +63,19 @@ groups:
       prefix: '&7[Guard]&b'
       suffix: '&r'
     inheritance:
-    - g:banman_guard
-    - g:vanish_guard
-    - g:lwc_guard
-    - g:groupmanager_guard
-    - g:blacklist_guard
-    - g:worldguard_guard
-    - g:nocheat_guard
-    - g:multiverse-inv_guard
-    - g:logblock_guard
-    - g:multiverse_guard
-    - g:multiverse-nether_guard
-    - g:bukkit_guard
     - Trusted
+    - g:banman_guard
+    - g:blacklist_guard
+    - g:bukkit_guard
+    - g:groupmanager_guard
+    - g:logblock_guard
+    - g:lwc_guard
+    - g:multiverse-inv_guard
+    - g:multiverse-nether_guard
+    - g:multiverse_guard
+    - g:nocheat_guard
+    - g:vanish_guard
+    - g:worldguard_guard
     permissions: []
   Guest:
     default: true
@@ -84,9 +84,9 @@ groups:
       prefix: '&7[Guest]&e'
       suffix: '&r'
     inheritance:
+    - g:banman_default
     - g:bukkit_default
     - g:groupmanager_default
-    - g:banman_default
     - g:multiverse_default
     permissions:
     - -essentials.back
@@ -99,14 +99,14 @@ groups:
       prefix: '&7[Mod]&3'
       suffix: '&r'
     inheritance:
-    - g:logblock_mod
-    - g:blacklist_mod
-    - g:banman_mod
-    - g:worldguard_mod
-    - g:nocheat_mod
-    - g:bukkit_mod
-    - g:multiverse_mod
     - Guard
+    - g:banman_mod
+    - g:blacklist_mod
+    - g:bukkit_mod
+    - g:logblock_mod
+    - g:multiverse_mod
+    - g:nocheat_mod
+    - g:worldguard_mod
     permissions: []
   Owner:
     default: false
@@ -124,11 +124,11 @@ groups:
       prefix: '&7[Trusted]&a'
       suffix: '&r'
     inheritance:
-    - g:logblock_trusted
+    - Builder
     - g:banman_trusted
-    - g:nocheat_trusted
     - g:border_trusted
     - g:bukkit_trusted
+    - g:logblock_trusted
     - g:multiverse_trusted
-    - Builder
+    - g:nocheat_trusted
     permissions: []
