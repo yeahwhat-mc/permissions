@@ -1013,10 +1013,37 @@ groups:
     - nocheatplus.command.lag
     - nocheatplus.command.plugins
     - nocheatplus.command.version
+  g:scs_admin:
+    permissions:
+    - scs.create.buy
+    - scs.create.exchange
+    - scs.create.sell
+    - scs.create.unlimited
   g:scs_guard:
     permissions:
     - scs.admin
     - scs.create.display
+    - scs.manage
+    - scs.remove
+  g:vanish_admin:
+    permissions:
+    - vanish.adminalerts
+    - vanish.permtest.all
+    - vanish.reload
+  g:vanish_guard:
+    permissions:
+    - vanish.effects.toggle.all
+    - vanish.fakeannounce
+    - vanish.list
+    - vanish.nofollow
+    - vanish.nohunger
+    - vanish.notrample
+    - vanish.preventincomingdamage
+    - vanish.see
+    - vanish.silentchests
+    - vanish.statusupdates
+    - vanish.toggle.all
+    - vanish.vanish
   g:vote_admin:
     permissions:
     - vote.reload

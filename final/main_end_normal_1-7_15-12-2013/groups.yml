@@ -6,24 +6,26 @@ groups:
       prefix: '&7[Admin]&c'
       suffix: '&r'
     inheritance:
-    - g:multiverse_admin
-    - g:worldguard_admin
-    - g:essentials_admin
-    - g:logblock_admin
-    - g:animals_admin
-    - g:xpbank_admin
+    - g:scs_admin
     - g:multiverse-inv_admin
-    - g:vote_admin
-    - g:bukkit_admin
-    - g:dynmap_admin
-    - g:multiverse-nether_admin
-    - g:nocheat_admin
-    - g:craftconomy_admin
-    - g:banman_admin
     - g:worldedit_admin
-    - g:border_admin
-    - g:craftbook_admin
+    - g:worldguard_admin
+    - g:vanish_admin
+    - g:nocheat_admin
+    - g:animals_admin
+    - g:multiverse-nether_admin
     - g:groupmanager_admin
+    - g:logblock_admin
+    - g:dynmap_admin
+    - g:craftconomy_admin
+    - g:vote_admin
+    - g:essentials_admin
+    - g:border_admin
+    - g:xpbank_admin
+    - g:banman_admin
+    - g:multiverse_admin
+    - g:bukkit_admin
+    - g:craftbook_admin
     - Moderator
     permissions: []
   Builder:
@@ -33,18 +35,18 @@ groups:
       prefix: '&7[Builder]&2'
       suffix: '&r'
     inheritance:
-    - g:craftbook_builder
-    - g:chestshop_builder
-    - g:worldguard_builder
-    - g:essentials_builder
-    - g:dynmap_builder
-    - g:lwc_builder
-    - g:bukkit_builder
-    - g:vote_builder
-    - g:craftconomy_builder
     - g:craftbookic_builder
+    - g:bukkit_builder
+    - g:lwc_builder
+    - g:essentials_builder
+    - g:worldguard_builder
+    - g:craftbook_builder
+    - g:craftconomy_builder
     - g:xpbank_builder
+    - g:dynmap_builder
+    - g:vote_builder
     - g:worldedit_builder
+    - g:chestshop_builder
     - Guest
     - g:blacklist_builder_survival
     permissions: []
@@ -66,27 +68,28 @@ groups:
       prefix: '&7[Guard]&b'
       suffix: '&r'
     inheritance:
-    - g:vote_guard
-    - g:multiverse_guard
-    - g:animals_guard
-    - g:bukkit_guard
-    - g:chestshop_guard
-    - g:disguise_guard
-    - g:essentials_guard
     - g:banman_guard
-    - g:groupmanager_guard
-    - g:xpbank_guard
-    - g:lwc_guard
-    - g:worldguard_guard
-    - g:worldedit_guard
-    - g:multiverse-nether_guard
-    - g:blacklist_guard
+    - g:scs_guard
+    - g:vanish_guard
+    - g:disguise_guard
     - g:dynmap_guard
-    - g:logblock_guard
+    - g:lwc_guard
+    - g:chestshop_guard
+    - g:groupmanager_guard
+    - g:blacklist_guard
+    - g:essentials_guard
+    - g:worldguard_guard
+    - g:animals_guard
+    - g:craftconomy_guard
     - g:nocheat_guard
     - g:multiverse-inv_guard
-    - g:craftconomy_guard
-    - g:scs_guard
+    - g:logblock_guard
+    - g:multiverse_guard
+    - g:vote_guard
+    - g:multiverse-nether_guard
+    - g:xpbank_guard
+    - g:worldedit_guard
+    - g:bukkit_guard
     - Trusted
     permissions: []
   Guest:
@@ -96,15 +99,15 @@ groups:
       prefix: '&7[Guest]&e'
       suffix: '&r'
     inheritance:
-    - g:essentials_default
+    - g:bukkit_default
+    - g:disguise_default
+    - g:groupmanager_default
+    - g:animals_default
     - g:craftbook_default
     - g:worldedit_default
     - g:banman_default
-    - g:animals_default
-    - g:groupmanager_default
-    - g:bukkit_default
-    - g:disguise_default
     - g:multiverse_default
+    - g:essentials_default
     permissions: []
   Moderator:
     default: false
@@ -113,23 +116,23 @@ groups:
       prefix: '&7[Mod]&3'
       suffix: '&r'
     inheritance:
-    - g:worldedit_mod
-    - g:multiverse_mod
-    - g:bukkit_mod
-    - g:lwc_mod
-    - g:craftbook_mod
-    - g:craftbookic_mod
-    - g:craftconomy_mod
-    - g:chestshop_mod
-    - g:xpbank_mod
-    - g:nocheat_mod
+    - g:dynmap_mod
     - g:logblock_mod
+    - g:blacklist_mod
     - g:banman_mod
     - g:essentials_mod
-    - g:disguise_mod
-    - g:blacklist_mod
-    - g:dynmap_mod
+    - g:craftbook_mod
+    - g:craftconomy_mod
     - g:worldguard_mod
+    - g:nocheat_mod
+    - g:bukkit_mod
+    - g:multiverse_mod
+    - g:xpbank_mod
+    - g:lwc_mod
+    - g:disguise_mod
+    - g:worldedit_mod
+    - g:craftbookic_mod
+    - g:chestshop_mod
     - Guard
     permissions: []
   Owner:
@@ -148,18 +151,18 @@ groups:
       prefix: '&7[Trusted]&a'
       suffix: '&r'
     inheritance:
-    - g:lwc_trusted
-    - g:border_trusted
-    - g:bukkit_trusted
-    - g:craftbookic_trusted
-    - g:essentials_trusted
     - g:logblock_trusted
-    - g:nocheat_trusted
-    - g:multiverse_trusted
-    - g:banman_trusted
+    - g:animals_trusted
+    - g:lwc_trusted
     - g:dynmap_trusted
     - g:craftbook_trusted
-    - g:animals_trusted
+    - g:essentials_trusted
+    - g:banman_trusted
+    - g:craftbookic_trusted
+    - g:nocheat_trusted
+    - g:border_trusted
+    - g:bukkit_trusted
+    - g:multiverse_trusted
     - Builder
     - g:blacklist_trusted_survival
     permissions: []
