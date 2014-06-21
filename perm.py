@@ -131,6 +131,9 @@ for world in worldorder:
                             worlddata["groups"][group]["inheritance"].append(pgroup)
     if world in customworlds:
         merge_worlds(worlddata, customworlds[world])
+    for group, prop in worlddata["groups"].items():
+        prop["permissions"].sort()
+        prop["inheritance"].sort()
 
     worldperms[world] = worlddata
 
