@@ -888,6 +888,12 @@ groups:
     - groupmanager.manulistp
     - groupmanager.manulistv
     - groupmanager.notify.other
+  g:itemcase_guard:
+    permissions:
+    - itemcase.create.showcase
+    - itemcase.destroy.other
+    - itemcase.help
+    - itemcase.modify.other
   g:logblock_admin:
     permissions:
     - logblock.clearlog

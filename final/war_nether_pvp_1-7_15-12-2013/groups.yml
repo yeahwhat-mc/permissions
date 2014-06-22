@@ -68,6 +68,7 @@ groups:
     - g:blacklist_guard
     - g:bukkit_guard
     - g:groupmanager_guard
+    - g:itemcase_guard
     - g:logblock_guard
     - g:lwc_guard
     - g:multiverse-inv_guard
