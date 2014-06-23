@@ -62,7 +62,6 @@ groups:
       prefix: '&7[Guard]&b'
       suffix: '&r'
     inheritance:
-    - -g:scs_guard
     - Trusted
     - g:banman_guard
     - g:blacklist_guard

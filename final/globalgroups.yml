@@ -576,7 +576,6 @@ groups:
     - essentials.whois
   g:essentials_builder_creative:
     permissions:
-    - essemtials.signs.destroy.gamemode
     - essentials.enchant
     - essentials.enchantments.*
     - essentials.enderchest
@@ -611,6 +610,7 @@ groups:
     - essentials.signs.create.repair
     - essentials.signs.destroy.enchant
     - essentials.signs.destroy.free
+    - essentials.signs.destroy.gamemode
     - essentials.signs.destroy.heal
     - essentials.signs.destroy.repair
     - essentials.speed
