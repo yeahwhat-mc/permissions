@@ -68,7 +68,6 @@ groups:
     - -g:vote_guard
     - -g:worldedit_guard
     - -g:xpbank_guard
-    - -g:scs_guard
 
   Moderator:
     inheritance:
