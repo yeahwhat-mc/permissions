@@ -21,7 +21,6 @@ groups:
     - g:multiverse-nether_admin
     - g:multiverse_admin
     - g:nocheat_admin
-    - g:scs_admin
     - g:vanish_admin
     - g:vote_admin
     - g:worldedit_admin
@@ -86,7 +85,6 @@ groups:
     - g:multiverse-nether_guard
     - g:multiverse_guard
     - g:nocheat_guard
-    - g:scs_guard
     - g:vanish_guard
     - g:vote_guard
     - g:worldedit_guard
