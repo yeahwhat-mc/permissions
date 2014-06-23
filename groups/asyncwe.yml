@@ -19,9 +19,9 @@ g:awe_mod:
 
 g:awe_admin:
     permissions:
-    - AWE.admin.queue-bypass
     - AWE.admin.reload
     - AWE.admin.version
 
 #- AWE.user.vip-queue
 #- AWE.user.talkative
+#- AWE.admin.queue-bypass
