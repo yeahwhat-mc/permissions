@@ -13,6 +13,28 @@ groups:
   g:animals_trusted:
     permissions:
     - ProtectAnimals.info
+  g:awe_admin:
+    permissions:
+    - AWE.admin.queue-bypass
+    - AWE.admin.reload
+    - AWE.admin.version
+  g:awe_guard:
+    permissions:
+    - AWE.admin.jobs
+    - AWE.admin.jobs.all
+    - AWE.user.jobs
+  g:awe_mod:
+    permissions:
+    - AWE.admin.cancel
+    - AWE.admin.mode.change
+    - AWE.admin.purge
+    - AWE.admin.purge.all
+    - AWE.user.cancel
+    - AWE.user.mode.change
+    - AWE.user.mode.off
+    - AWE.user.mode.on
+    - AWE.user.progressBar
+    - AWE.user.purge
   g:banman_admin:
     permissions:
     - bm.import
@@ -899,6 +921,54 @@ groups:
     - groupmanager.manulistp
     - groupmanager.manulistv
     - groupmanager.notify.other
+  g:irc_admin:
+    permissions:
+    - irc.addop
+    - irc.connect
+    - irc.ctcp
+    - irc.debug
+    - irc.deop
+    - irc.disconnect
+    - irc.join
+    - irc.kick
+    - irc.leave
+    - irc.listbots
+    - irc.listops
+    - irc.login
+    - irc.messagedelay
+    - irc.msg
+    - irc.mute
+    - irc.nick
+    - irc.notice
+    - irc.op
+    - irc.reload
+    - irc.reloadbot
+    - irc.reloadbotconfig
+    - irc.reloadbotconfigs
+    - irc.reloadbots
+    - irc.reloadconfig
+    - irc.removeop
+    - irc.save
+    - irc.say
+    - irc.send
+    - irc.sendraw
+    - irc.server
+    - irc.unmute
+  g:irc_default:
+    permissions:
+    - irc.list
+    - irc.message.action
+    - irc.message.chat
+    - irc.message.connect
+    - irc.message.disconnect
+    - irc.message.gamechat
+    - irc.message.join
+    - irc.message.kick
+    - irc.message.nickchange
+    - irc.message.part
+    - irc.message.quit
+    - irc.motd
+    - irc.whois
   g:itemcase_guard:
     permissions:
     - itemcase.create.showcase

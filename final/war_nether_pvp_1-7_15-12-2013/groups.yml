@@ -7,10 +7,12 @@ groups:
       suffix: '&r'
     inheritance:
     - Moderator
+    - g:awe_admin
     - g:banman_admin
     - g:border_admin
     - g:bukkit_admin
     - g:groupmanager_admin
+    - g:irc_admin
     - g:logblock_admin
     - g:multiverse-inv_admin
     - g:multiverse-nether_admin
@@ -63,6 +65,7 @@ groups:
       suffix: '&r'
     inheritance:
     - Trusted
+    - g:awe_guard
     - g:banman_guard
     - g:blacklist_guard
     - g:bukkit_guard
@@ -87,6 +90,7 @@ groups:
     - g:banman_default
     - g:bukkit_default
     - g:groupmanager_default
+    - g:irc_default
     - g:multiverse_default
     permissions:
     - -essentials.back
@@ -100,6 +104,7 @@ groups:
       suffix: '&r'
     inheritance:
     - Guard
+    - g:awe_mod
     - g:banman_mod
     - g:blacklist_mod
     - g:bukkit_mod
