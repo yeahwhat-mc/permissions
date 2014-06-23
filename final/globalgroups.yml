@@ -15,7 +15,6 @@ groups:
     - ProtectAnimals.info
   g:awe_admin:
     permissions:
-    - AWE.admin.queue-bypass
     - AWE.admin.reload
     - AWE.admin.version
   g:awe_guard:
