@@ -1,0 +1,52 @@
+g:irc_default:
+    permissions:
+    - irc.list
+    - irc.motd
+    - irc.whois
+    - irc.message.chat
+    - irc.message.gamechat
+    - irc.message.action
+    - irc.message.quit
+    - irc.message.join
+    - irc.message.disconnect
+    - irc.message.connect
+    - irc.message.kick
+    - irc.message.nickchange
+    - irc.message.part
+
+g:irc_admin:
+    permissions:
+    - irc.reload
+    - irc.reloadconfig
+    - irc.save
+    - irc.reloadbot
+    - irc.reloadbots
+    - irc.reloadbotconfig
+    - irc.reloadbotconfigs
+    - irc.connect
+    - irc.disconnect
+    - irc.listbots
+    - irc.kick
+    - irc.op
+    - irc.listops
+    - irc.deop
+    - irc.addop
+    - irc.removeop
+    - irc.server
+    - irc.mute
+    - irc.unmute
+    - irc.nick
+    - irc.login
+    - irc.join
+    - irc.leave
+    - irc.say
+    - irc.send
+    - irc.debug
+    - irc.messagedelay
+    - irc.msg
+    - irc.ctcp
+    - irc.notice
+    - irc.sendraw
+
+#- irc.message.topic
+#- irc.tablist
