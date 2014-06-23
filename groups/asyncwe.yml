@@ -1,0 +1,27 @@
+g:awe_guard:
+    permissions:
+    - AWE.user.jobs
+    - AWE.admin.jobs
+    - AWE.admin.jobs.all
+
+g:awe_mod:
+    permissions:
+    - AWE.user.purge
+    - AWE.user.cancel
+    - AWE.user.mode.on
+    - AWE.user.mode.off
+    - AWE.user.mode.change
+    - AWE.admin.purge
+    - AWE.admin.purge.all
+    - AWE.admin.cancel
+    - AWE.admin.mode.change
+    - AWE.user.progressBar
+
+g:awe_admin:
+    permissions:
+    - AWE.admin.queue-bypass
+    - AWE.admin.reload
+    - AWE.admin.version
+
+#- AWE.user.vip-queue
+#- AWE.user.talkative
