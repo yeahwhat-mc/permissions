@@ -616,6 +616,7 @@ groups:
     - essentials.speed
     - essentials.speed.fly
     - essentials.speed.walk
+    - essentials.tppos
     - essentials.workbench
   g:essentials_default:
     permissions:
