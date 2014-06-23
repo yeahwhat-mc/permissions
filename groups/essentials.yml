@@ -121,6 +121,16 @@ g:essentials_builder_creative:
     - essentials.exp.give
     - essentials.firework
     - essentials.firework.fire
+    - essentials.signs.create.free
+    - essentials.signs.destroy.free
+    - essentials.signs.create.enchant
+    - essentials.signs.destroy.enchant
+    - essentials.signs.create.gamemode
+    - essemtials.signs.destroy.gamemode
+    - essentials.signs.create.heal
+    - essentials.signs.destroy.heal
+    - essentials.signs.create.repair
+    - essentials.signs.destroy.repair
 
 g:essentials_trusted:
     permissions:
