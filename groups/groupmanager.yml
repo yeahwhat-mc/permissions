@@ -43,3 +43,4 @@ g:groupmanager_admin:
     - groupmanager.mantogglevalidate
     - groupmanager.mantogglesave
     - groupmanager.mancheckw
+    - groupmanager.op

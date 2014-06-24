@@ -896,6 +896,7 @@ groups:
     - groupmanager.manuaddv
     - groupmanager.manudelp
     - groupmanager.manudelv
+    - groupmanager.op
   g:groupmanager_default:
     permissions:
     - groupmanager.manwhois
