@@ -13,7 +13,9 @@ g:worldguard_builder:
     - worldguard.region.flag.flags.use
     - worldguard.region.flag.flags.entry
     - worldguard.region.flag.flags.greeting
+    - worldguard.region.flag.flags.greeting.*
     - worldguard.region.flag.flags.farewell
+    - worldguard.region.flag.flags.farewell.*
     - worldguard.region.flag.flags.passthrough
 
 g:worldguard_builder_creative:
