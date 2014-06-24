@@ -48,12 +48,12 @@ g:dynmap_mod:
     - dynmap.webregister.other
     - dynmap.add-id-for-ip
     - dynmap.del-id-for-ip
+    - dynmap.radiusrender
 
 g:dynmap_admin:
     permissions:
     - dynmap.render
     - dynmap.fullrender
-    - dynmap.radiusrender
     - dynmap.updaterender
     - dynmap.cancelrender
     - dynmap.pause

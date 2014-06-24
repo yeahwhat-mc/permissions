@@ -505,7 +505,6 @@ groups:
     - dynmap.fullrender
     - dynmap.pause
     - dynmap.purgequeue
-    - dynmap.radiusrender
     - dynmap.reload
     - dynmap.render
     - dynmap.resetstats
@@ -549,6 +548,7 @@ groups:
     - dynmap.marker.updateicon
     - dynmap.marker.updateline
     - dynmap.marker.updateset
+    - dynmap.radiusrender
     - dynmap.webregister.other
   g:dynmap_trusted:
     permissions:
