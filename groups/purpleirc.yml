@@ -11,6 +11,7 @@ g:irc_default:
     - irc.message.kick
     - irc.message.nickchange
     - irc.message.part
+    - irc.tablist
 
 g:irc_admin:
     permissions:
