@@ -8,8 +8,6 @@ g:irc_default:
     - irc.message.action
     - irc.message.quit
     - irc.message.join
-    - irc.message.disconnect
-    - irc.message.connect
     - irc.message.kick
     - irc.message.nickchange
     - irc.message.part
@@ -48,5 +46,7 @@ g:irc_admin:
     - irc.notice
     - irc.sendraw
 
+#- irc.message.disconnect
+#- irc.message.connect
 #- irc.message.topic
 #- irc.tablist
