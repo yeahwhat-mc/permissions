@@ -962,7 +962,6 @@ groups:
     - irc.message.gamechat
     - irc.message.kick
     - irc.message.nickchange
-    - irc.message.quit
     - irc.motd
     - irc.tablist
     - irc.whois

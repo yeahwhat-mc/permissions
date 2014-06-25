@@ -6,7 +6,7 @@ g:irc_default:
     - irc.message.chat
     - irc.message.gamechat
     - irc.message.action
-    - irc.message.quit
+#    - irc.message.quit
 #    - irc.message.join
     - irc.message.kick
     - irc.message.nickchange
