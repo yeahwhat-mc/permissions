@@ -8,40 +8,37 @@ g:worldguard_builder:
     - worldguard.region.removemember.own.*
     - worldguard.region.teleport.own.*
     - worldguard.region.flag.regions.own.*
-    - worldguard.region.flag.flags.tnt
-    - worldguard.region.flag.flags.lighter
-    - worldguard.region.flag.flags.use
-    - worldguard.region.flag.flags.entry
-    - worldguard.region.flag.flags.greeting
+    - worldguard.region.flag.flags.tnt.*
+    - worldguard.region.flag.flags.lighter.*
+    - worldguard.region.flag.flags.use.*
+    - worldguard.region.flag.flags.entry.*
     - worldguard.region.flag.flags.greeting.*
-    - worldguard.region.flag.flags.farewell
     - worldguard.region.flag.flags.farewell.*
-    - worldguard.region.flag.flags.passthrough
+    - worldguard.region.flag.flags.passthrough.*
 
 g:worldguard_builder_creative:
     permissions:
-    - worldguard.region.flag.flags.pvp
-    - worldguard.region.flag.flags.mob-damage
-    - worldguard.region.flag.flags.mob-spawning
-    - worldguard.region.flag.flags.enderpearl
-    - worldguard.region.flag.flags.snow-fall
-    - worldguard.region.flag.flags.snow-melt
-    - worldguard.region.flag.flags.ice-melt
-    - worldguard.region.flag.flags.ice-form
-    - worldguard.region.flag.flags.leaf-decay
-    - worldguard.region.flag.flags.grass-growth
-    - worldguard.region.flag.flags.deny-spawn
-    - worldguard.region.flag.flags.heal-delay
-    - worldguard.region.flag.flags.heal-amount
-    - worldguard.region.flag.flags.heal-min-health
-    - worldguard.region.flag.flags.heal-max-health
-    - worldguard.region.flag.flags.feed-delay
-    - worldguard.region.flag.flags.feed-amount
-    - worldguard.region.flag.flags.feed-min-hunger
-    - worldguard.region.flag.flags.feed-max-hunger
-    - worldguard.region.flag.flags.teleport
-    - worldguard.region.flag.flags.spawn
-    - worldguard.region.flag.flags.game-mode
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-damage.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.flags.enderpearl.*
+    - worldguard.region.flag.flags.snow-fall.*
+    - worldguard.region.flag.flags.snow-melt.*
+    - worldguard.region.flag.flags.ice-melt.*
+    - worldguard.region.flag.flags.ice-form.*
+    - worldguard.region.flag.flags.leaf-decay.*
+    - worldguard.region.flag.flags.grass-growth.*
+    - worldguard.region.flag.flags.deny-spawn.*
+    - worldguard.region.flag.flags.heal-delay.*
+    - worldguard.region.flag.flags.heal-amount.*
+    - worldguard.region.flag.flags.heal-min-health.*
+    - worldguard.region.flag.flags.heal-max-health.*
+    - worldguard.region.flag.flags.feed-delay.*
+    - worldguard.region.flag.flags.feed-amount.*
+    - worldguard.region.flag.flags.feed-min-hunger.*
+    - worldguard.region.flag.flags.feed-max-hunger.*
+    - worldguard.region.flag.flags.teleport.*
+    - worldguard.region.flag.flags.spawn.*
     - worldguard.region.flag.flags.game-mode.*
     - worldguard.region.teleport.own.*
     - worldguard.region.teleport.member.*
