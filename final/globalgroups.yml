@@ -966,7 +966,6 @@ groups:
     - irc.message.part
     - irc.message.quit
     - irc.motd
-    - irc.tablist
     - irc.whois
   g:itemcase_guard:
     permissions:
