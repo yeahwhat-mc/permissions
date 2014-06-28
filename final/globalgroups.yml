@@ -960,8 +960,11 @@ groups:
     - irc.message.action
     - irc.message.chat
     - irc.message.gamechat
+    - irc.message.join
     - irc.message.kick
     - irc.message.nickchange
+    - irc.message.part
+    - irc.message.quit
     - irc.motd
     - irc.tablist
     - irc.whois
