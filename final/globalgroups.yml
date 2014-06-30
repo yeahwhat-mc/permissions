@@ -1098,6 +1098,12 @@ groups:
     - nocheatplus.command.lag
     - nocheatplus.command.plugins
     - nocheatplus.command.version
+  g:ping_default:
+    permissions:
+    - ping.self
+  g:ping_guard:
+    permissions:
+    - ping.others
   g:vanish_admin:
     permissions:
     - vanish.adminalerts
@@ -1143,6 +1149,31 @@ groups:
     - vote.veto
     - vote.voteno.*
     - vote.voteyes.*
+  g:whois_default:
+    permissions:
+    - -customwhois.custom.location.war_end_pvp_1-7_15-12-2013
+    - -customwhois.custom.location.war_nether_pvp_1-7_15-12-2013
+    - -customwhois.custom.location.war_survival_pvp_1-7_15-12-2013
+    - customwhois.custom.afk.*
+    - customwhois.custom.exp.*
+    - customwhois.custom.flying.*
+    - customwhois.custom.gamemode.*
+    - customwhois.custom.godmode.*
+    - customwhois.custom.hunger.*
+    - customwhois.custom.ip.*
+    - customwhois.custom.jailed.*
+    - customwhois.custom.location.*
+    - customwhois.custom.location.*
+    - customwhois.custom.money.*
+    - customwhois.custom.muted.*
+    - customwhois.custom.op.*
+    - customwhois.whois.others
+    - customwhois.whois.self
+  g:whois_guard:
+    permissions:
+    - +customwhois.custom.location.war_end_pvp_1-7_15-12-2013
+    - +customwhois.custom.location.war_nether_pvp_1-7_15-12-2013
+    - +customwhois.custom.location.war_survival_pvp_1-7_15-12-2013
   g:worldedit_admin:
     permissions:
     - worldedit.global-mask
@@ -1275,7 +1306,6 @@ groups:
   g:worldguard_builder:
     permissions:
     - worldguard.region.addmember.own.*
-    - worldguard.region.flag.flags.entry.*
     - worldguard.region.flag.flags.farewell.*
     - worldguard.region.flag.flags.greeting.*
     - worldguard.region.flag.flags.lighter.*

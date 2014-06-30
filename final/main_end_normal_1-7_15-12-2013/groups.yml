@@ -88,8 +88,10 @@ groups:
     - g:multiverse-nether_guard
     - g:multiverse_guard
     - g:nocheat_guard
+    - g:ping_guard
     - g:vanish_guard
     - g:vote_guard
+    - g:whois_guard
     - g:worldedit_guard
     - g:worldguard_guard
     - g:xpbank_guard
@@ -110,6 +112,8 @@ groups:
     - g:groupmanager_default
     - g:irc_default
     - g:multiverse_default
+    - g:ping_default
+    - g:whois_default
     - g:worldedit_default
     permissions: []
   Moderator:
