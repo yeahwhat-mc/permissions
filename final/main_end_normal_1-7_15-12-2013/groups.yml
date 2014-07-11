@@ -40,6 +40,7 @@ groups:
     - g:blacklist_builder_survival
     - g:bukkit_builder
     - g:chestshop_builder
+    - g:chestshoplogger_builder
     - g:craftbook_builder
     - g:craftbookic_builder
     - g:craftconomy_builder

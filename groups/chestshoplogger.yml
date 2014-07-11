@@ -1,0 +1,5 @@
+g:chestshoplogger_builder:
+    permissions:
+    - chestshoplogger.find
+    - chestshoplogger.tp
+    - chestshoplogger.coords

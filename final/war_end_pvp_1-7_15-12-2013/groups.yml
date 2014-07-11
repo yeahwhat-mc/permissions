@@ -30,6 +30,7 @@ groups:
     inheritance:
     - Guest
     - g:bukkit_builder
+    - g:chestshoplogger_builder
     - g:worldguard_builder
     permissions:
     - -essentials.tpa

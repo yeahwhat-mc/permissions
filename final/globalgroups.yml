@@ -204,6 +204,11 @@ groups:
   g:chestshop_mod:
     permissions:
     - ChestShop.admin
+  g:chestshoplogger_builder:
+    permissions:
+    - chestshoplogger.coords
+    - chestshoplogger.find
+    - chestshoplogger.tp
   g:craftbook_admin:
     permissions:
     - craftbook.mech.chunk

@@ -40,6 +40,7 @@ groups:
     - g:bukkit_builder
     - g:bukkit_builder_creative
     - g:chestshop_builder
+    - g:chestshoplogger_builder
     - g:craftbook_builder
     - g:craftbook_builder_creative
     - g:craftbookic_builder
