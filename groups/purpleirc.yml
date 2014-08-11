@@ -7,11 +7,10 @@ g:irc_default:
     - irc.message.gamechat
     - irc.message.action
     - irc.message.quit
-#    - irc.message.join
+    - irc.message.join
     - irc.message.kick
     - irc.message.nickchange
-#    - irc.message.part
-    - irc.tablist
+    - irc.message.part
 
 g:irc_admin:
     permissions:

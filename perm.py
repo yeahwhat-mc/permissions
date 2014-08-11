@@ -44,7 +44,9 @@ def fixgroup(group):
                     
 def addnodes(nodeset, nodes):
     for node in nodes:
-        if node.startswith("-"):
+        if node in nodeset:
+            continue
+        elif node.startswith("-"):
             if node[1:] in nodeset:
                 nodeset.remove(node[1:])
             elif node not in nodeset:
@@ -87,11 +89,14 @@ for filename in os.listdir(groupspath):
     filegroups = yaml.load(f)
     f.close()
     for group, nodes in filegroups.items():
+        if group in globalgroups:
+            print("WARNING: Group", group, "in file", filename, "already defined, ignoring it")
+        else:
+            globalgroups[group] = nodes
         if "permissions" not in nodes:
-            print("ERROR: No permissions section not in group", group)
-            exit()
-        globalgroups[group] = nodes
-        globalgroups[group]["permissions"].sort()
+            print("WARNING: No permissions section in group", group)
+        else:
+            globalgroups[group]["permissions"].sort()
 
 customworlds = {}
 for filename in os.listdir(worldspath):

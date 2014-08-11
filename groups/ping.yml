@@ -1,0 +1,7 @@
+g:ping_default:
+    permissions:
+    - ping.self
+
+g:ping_guard:
+    permissions:
+    - ping.others

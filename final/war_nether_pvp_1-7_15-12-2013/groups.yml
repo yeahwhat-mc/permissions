@@ -78,7 +78,9 @@ groups:
     - g:multiverse-nether_guard
     - g:multiverse_guard
     - g:nocheat_guard
+    - g:ping_guard
     - g:vanish_guard
+    - g:whois_guard
     - g:worldguard_guard
     permissions: []
   Guest:
@@ -93,6 +95,8 @@ groups:
     - g:groupmanager_default
     - g:irc_default
     - g:multiverse_default
+    - g:ping_default
+    - g:whois_default
     permissions:
     - -essentials.back
     - -essentials.back.ondeath

@@ -965,11 +965,12 @@ groups:
     - irc.message.action
     - irc.message.chat
     - irc.message.gamechat
+    - irc.message.join
     - irc.message.kick
     - irc.message.nickchange
+    - irc.message.part
     - irc.message.quit
     - irc.motd
-    - irc.tablist
     - irc.whois
   g:itemcase_guard:
     permissions:
@@ -1102,6 +1103,12 @@ groups:
     - nocheatplus.command.lag
     - nocheatplus.command.plugins
     - nocheatplus.command.version
+  g:ping_default:
+    permissions:
+    - ping.self
+  g:ping_guard:
+    permissions:
+    - ping.others
   g:vanish_admin:
     permissions:
     - vanish.adminalerts
@@ -1147,6 +1154,31 @@ groups:
     - vote.veto
     - vote.voteno.*
     - vote.voteyes.*
+  g:whois_default:
+    permissions:
+    - -customwhois.custom.location.war_end_pvp_1-7_15-12-2013
+    - -customwhois.custom.location.war_nether_pvp_1-7_15-12-2013
+    - -customwhois.custom.location.war_survival_pvp_1-7_15-12-2013
+    - customwhois.custom.afk.*
+    - customwhois.custom.exp.*
+    - customwhois.custom.flying.*
+    - customwhois.custom.gamemode.*
+    - customwhois.custom.godmode.*
+    - customwhois.custom.hunger.*
+    - customwhois.custom.ip.*
+    - customwhois.custom.jailed.*
+    - customwhois.custom.location.*
+    - customwhois.custom.location.*
+    - customwhois.custom.money.*
+    - customwhois.custom.muted.*
+    - customwhois.custom.op.*
+    - customwhois.whois.others
+    - customwhois.whois.self
+  g:whois_guard:
+    permissions:
+    - +customwhois.custom.location.war_end_pvp_1-7_15-12-2013
+    - +customwhois.custom.location.war_nether_pvp_1-7_15-12-2013
+    - +customwhois.custom.location.war_survival_pvp_1-7_15-12-2013
   g:worldedit_admin:
     permissions:
     - worldedit.global-mask
@@ -1279,15 +1311,12 @@ groups:
   g:worldguard_builder:
     permissions:
     - worldguard.region.addmember.own.*
-    - worldguard.region.flag.flags.entry
-    - worldguard.region.flag.flags.farewell
     - worldguard.region.flag.flags.farewell.*
-    - worldguard.region.flag.flags.greeting
     - worldguard.region.flag.flags.greeting.*
-    - worldguard.region.flag.flags.lighter
-    - worldguard.region.flag.flags.passthrough
-    - worldguard.region.flag.flags.tnt
-    - worldguard.region.flag.flags.use
+    - worldguard.region.flag.flags.lighter.*
+    - worldguard.region.flag.flags.passthrough.*
+    - worldguard.region.flag.flags.tnt.*
+    - worldguard.region.flag.flags.use.*
     - worldguard.region.flag.regions.own.*
     - worldguard.region.info.*
     - worldguard.region.list.own
@@ -1297,29 +1326,28 @@ groups:
     - worldguard.region.wand
   g:worldguard_builder_creative:
     permissions:
-    - worldguard.region.flag.flags.deny-spawn
-    - worldguard.region.flag.flags.enderpearl
-    - worldguard.region.flag.flags.feed-amount
-    - worldguard.region.flag.flags.feed-delay
-    - worldguard.region.flag.flags.feed-max-hunger
-    - worldguard.region.flag.flags.feed-min-hunger
-    - worldguard.region.flag.flags.game-mode
+    - worldguard.region.flag.flags.deny-spawn.*
+    - worldguard.region.flag.flags.enderpearl.*
+    - worldguard.region.flag.flags.feed-amount.*
+    - worldguard.region.flag.flags.feed-delay.*
+    - worldguard.region.flag.flags.feed-max-hunger.*
+    - worldguard.region.flag.flags.feed-min-hunger.*
     - worldguard.region.flag.flags.game-mode.*
-    - worldguard.region.flag.flags.grass-growth
-    - worldguard.region.flag.flags.heal-amount
-    - worldguard.region.flag.flags.heal-delay
-    - worldguard.region.flag.flags.heal-max-health
-    - worldguard.region.flag.flags.heal-min-health
-    - worldguard.region.flag.flags.ice-form
-    - worldguard.region.flag.flags.ice-melt
-    - worldguard.region.flag.flags.leaf-decay
-    - worldguard.region.flag.flags.mob-damage
-    - worldguard.region.flag.flags.mob-spawning
-    - worldguard.region.flag.flags.pvp
-    - worldguard.region.flag.flags.snow-fall
-    - worldguard.region.flag.flags.snow-melt
-    - worldguard.region.flag.flags.spawn
-    - worldguard.region.flag.flags.teleport
+    - worldguard.region.flag.flags.grass-growth.*
+    - worldguard.region.flag.flags.heal-amount.*
+    - worldguard.region.flag.flags.heal-delay.*
+    - worldguard.region.flag.flags.heal-max-health.*
+    - worldguard.region.flag.flags.heal-min-health.*
+    - worldguard.region.flag.flags.ice-form.*
+    - worldguard.region.flag.flags.ice-melt.*
+    - worldguard.region.flag.flags.leaf-decay.*
+    - worldguard.region.flag.flags.mob-damage.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.snow-fall.*
+    - worldguard.region.flag.flags.snow-melt.*
+    - worldguard.region.flag.flags.spawn.*
+    - worldguard.region.flag.flags.teleport.*
     - worldguard.region.teleport.member.*
     - worldguard.region.teleport.own.*
   g:worldguard_guard:
