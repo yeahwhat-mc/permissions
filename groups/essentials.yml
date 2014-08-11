@@ -146,7 +146,6 @@ g:essentials_donator:
     permissions:
     - essentials.hat
     - essentials.nick
-    - essentials.nick.format
     - essentials.chat.color
     - essentials.chat.magic
 
