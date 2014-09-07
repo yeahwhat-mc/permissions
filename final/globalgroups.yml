@@ -925,6 +925,28 @@ groups:
     - groupmanager.manulistp
     - groupmanager.manulistv
     - groupmanager.notify.other
+  g:holoapi_admin:
+    permissions:
+    - holoapi.holo.build
+    - holoapi.holo.copy
+    - holoapi.holo.create
+    - holoapi.holo.edit
+    - holoapi.holo.move
+    - holoapi.holo.refresh
+    - holoapi.holo.reload
+    - holoapi.holo.remove
+    - holoapi.holo.touch.add
+    - holoapi.holo.touch.add
+    - holoapi.holo.touch.clear
+    - holoapi.holo.touch.remove
+    - holoapi.update
+  g:holoapi_guard:
+    permissions:
+    - holoapi.holo
+    - holoapi.holo.info
+    - holoapi.holo.nearby
+    - holoapi.holo.teleport
+    - holoapi.holo.touch.info
   g:irc_admin:
     permissions:
     - irc.addop

@@ -17,6 +17,7 @@ groups:
     - g:dynmap_admin
     - g:essentials_admin
     - g:groupmanager_admin
+    - g:holoapi_admin
     - g:irc_admin
     - g:logblock_admin
     - g:multiverse-inv_admin
@@ -82,6 +83,7 @@ groups:
     - g:dynmap_guard
     - g:essentials_guard
     - g:groupmanager_guard
+    - g:holoapi_guard
     - g:itemcase_guard
     - g:logblock_guard
     - g:lwc_guard
