@@ -155,6 +155,7 @@ g:essentials_donator_creative:
 
 g:essentials_guard:
     permissions:
+    - essentials.hat
     - essentials.break
     - essentials.feed
     - essentials.feed.cooldown.bypass

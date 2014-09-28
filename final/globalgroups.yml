@@ -742,6 +742,7 @@ groups:
     - essentials.getpos.others
     - essentials.give
     - essentials.god
+    - essentials.hat
     - essentials.heal
     - essentials.heal.cooldown.bypass
     - essentials.helpop.receive
