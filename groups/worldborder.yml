@@ -1,0 +1,30 @@
+g:border_trusted:
+    permissions:
+    - worldborder.help
+    - worldborder.list
+    - worldborder.getmsg
+
+g:border_admin:
+    permissions:
+    - worldborder.set
+    - worldborder.radius
+    - worldborder.clear
+    - worldborder.shape
+    - worldborder.knockback
+    - worldborder.fill
+    - worldborder.trim
+    - worldborder.bypass
+    - worldborder.bypasslist
+    - worldborder.fillautosave
+    - worldborder.wshape
+    - worldborder.wrap
+    - worldborder.setmsg
+    - worldborder.delay
+    - worldborder.whoosh
+    - worldborder.portal
+    - worldborder.denypearl
+    - worldborder.dynmap
+    - worldborder.dynmapmsg
+    - worldborder.remount
+    - worldborder.reload
+    - worldborder.debug

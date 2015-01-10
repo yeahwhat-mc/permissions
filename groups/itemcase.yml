@@ -1,0 +1,14 @@
+g:itemcase_guard:
+    permissions:
+    - itemcase.create.showcase
+    - itemcase.modify.other
+    - itemcase.destroy.other
+    - itemcase.help    
+
+#- itemcase.buy
+#- itemcase.sell
+
+#- itemcase.create.infinite
+#- itemcase.create.shop.buy
+#- itemcase.create.shop.sell
+#- itemcase.storage.other

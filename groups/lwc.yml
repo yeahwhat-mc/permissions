@@ -1,0 +1,18 @@
+g:lwc_builder:
+    permissions:
+    - lwc.protect
+    - lwc.mode.persist
+
+g:lwc_trusted:
+    permissions:
+    - lwc.admin.version
+
+g:lwc_guard:
+    permissions:
+    - lwc.mod
+
+g:lwc_mod:
+    permissions:
+    - lwc.admin
+
+# lwc.mode.droptransfer

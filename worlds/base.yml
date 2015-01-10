@@ -1,0 +1,79 @@
+groups:
+  Guest:
+    default: true
+    permissions: []
+    info:
+      prefix: '&7[Guest]&e'
+      build: false
+      suffix: '&r'
+    inheritance: []
+
+  Builder:
+    default: false
+    permissions: []
+    info:
+      prefix: '&7[Builder]&2'
+      build: true
+      suffix: '&r'
+    inheritance:
+    - Guest
+
+  Trusted:
+    default: false
+    permissions: []
+    info:
+      prefix: '&7[Trusted]&a'
+      build: true
+      suffix: '&r'
+    inheritance:
+    - Builder
+
+  Donator:
+    default: false
+    permissions: []
+    info:
+      prefix: '&7[$$$]&6'
+      build: true
+      suffix: '&r'
+    inheritance:
+    - Trusted
+
+  Guard:
+    default: false
+    permissions: []
+    info:
+      prefix: '&7[Guard]&b'
+      build: true
+      suffix: '&r'
+    inheritance:
+    - Trusted
+
+  Moderator:
+    default: false
+    permissions: []
+    info:
+      prefix: '&7[Mod]&3'
+      build: true
+      suffix: '&r'
+    inheritance:
+    - Guard
+
+  Admin:
+    default: false
+    permissions: []
+    info:
+      prefix: '&7[Admin]&c'
+      build: true
+      suffix: '&r'
+    inheritance:
+    - Moderator
+
+  Owner:
+    default: false
+    permissions: []
+    info:
+      prefix: '&7[Owner]&c'
+      build: true
+      suffix: '&r'
+    inheritance:
+    - Admin

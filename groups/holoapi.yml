@@ -1,0 +1,23 @@
+g:holoapi_guard:
+    permissions:
+    - holoapi.holo
+    - holoapi.holo.info
+    - holoapi.holo.nearby
+    - holoapi.holo.teleport
+    - holoapi.holo.touch.info
+
+g:holoapi_admin:
+    permissions:
+    - holoapi.update
+    - holoapi.holo.create
+    - holoapi.holo.remove
+    - holoapi.holo.move
+    - holoapi.holo.build
+    - holoapi.holo.edit
+    - holoapi.holo.copy
+    - holoapi.holo.refresh
+    - holoapi.holo.reload
+    - holoapi.holo.touch.add
+    - holoapi.holo.touch.add
+    - holoapi.holo.touch.remove
+    - holoapi.holo.touch.clear

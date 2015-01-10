@@ -1,0 +1,17 @@
+g:xpbank_builder:
+    permissions:
+    - xp.pay
+    - xp.quickstore
+    - xp.create
+
+g:xpbank_guard:
+    permissions:
+    - xp.breakany
+
+g:xpbank_mod:
+    permissions:
+    - xp.create.unlimited
+
+g:xpbank_admin:
+    permissions:
+    - xp.admin

@@ -1,0 +1,28 @@
+g:vote_builder:
+    permissions:
+    - vote.voteyes.night
+    - vote.voteyes.day
+    - vote.voteyes.rain
+    - vote.voteyes.sun
+    - vote.voteno.night
+    - vote.voteno.day
+    - vote.voteno.rain
+    - vote.voteno.sun
+    - vote.startvote.night
+    - vote.startvote.day
+    - vote.startvote.rain
+    - vote.startvote.sun
+
+g:vote_guard:
+    permissions:
+    - vote.voteyes.*
+    - vote.voteno.*
+    - vote.startvote.*
+    - vote.unkickable
+    - vote.unbannable
+    - vote.veto
+
+g:vote_admin:
+    permissions:
+    - vote.setvalue
+    - vote.reload

@@ -1,0 +1,76 @@
+g:bukkit_default:
+    permissions:
+    - bukkit.command.tell
+    - bukkit.command.kill
+    - bukkit.command.me
+    - bukkit.command.help
+    - bukkit.command.ban.list
+    - bukkit.command.list
+    - bukkit.broadcast.user
+
+g:bukkit_builder:
+    permissions:
+    - bukkit.command.tps
+
+g:bukkit_builder_creative:
+    permissions:
+    - bukkit.command.teleport
+    - bukkit.command.give
+    - bukkit.command.gamemode
+    - bukkit.command.spawnpoint
+    - bukkit.command.enchant
+
+g:bukkit_trusted:
+    permissions:
+    - bukkit.command.seed
+
+g:bukkit_guard:
+    permissions:
+    - bukkit.command.version
+    - bukkit.command.plugins
+    - bukkit.command.teleport
+    - bukkit.command.give
+    - bukkit.command.time.add
+    - bukkit.command.time.set
+    - bukkit.command.weather
+    - bukkit.command.gamemode
+    - bukkit.command.toggledownfall
+    - bukkit.command.clear
+    - bukkit.command.spawnpoint
+
+g:bukkit_mod:
+    permissions:
+    - bukkit.command.ban.player
+    - bukkit.command.unban.player
+    - bukkit.command.ban.ip
+    - bukkit.command.unban.ip
+    - bukkit.command.kick
+    - bukkit.command.xp
+    - bukkit.command.enchant
+    - bukkit.command.effect
+    - bukkit.command.achievement
+
+g:bukkit_admin:
+    permissions:
+    - bukkit.command.reload
+    - bukkit.command.timings
+    - bukkit.command.stop
+    - bukkit.command.save.perform
+    - bukkit.command.save.disable
+    - bukkit.command.save.enable
+    - bukkit.command.say
+    - bukkit.command.whitelist.enable
+    - bukkit.command.whitelist.disable
+    - bukkit.command.whitelist.add
+    - bukkit.command.whitelist.remove
+    - bukkit.command.whitelist.list
+    - bukkit.command.whitelist.reload
+    - bukkit.command.defaultgamemode
+    - bukkit.command.difficulty
+    - bukkit.command.gamerule
+    - bukkit.command.setidletimeout
+    - bukkit.command.setworldspawn
+
+#- bukkit.command.op.give
+#- bukkit.command.op.take
+#- bukkit.broadcast.admin

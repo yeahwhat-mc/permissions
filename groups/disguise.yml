@@ -1,0 +1,24 @@
+g:disguise_default:
+    permissions:
+    - -disguisecraft.notarget
+    - disguisecraft.burning
+
+g:disguise_donator:
+    permissions:
+    - disguisecraft.mob.*
+    - disguisecraft.object.*
+    - disguisecraft.noarmor
+
+g:disguise_guard:
+    permissions:
+    - disguisecraft.other.undisguise
+    - disguisecraft.seer
+
+g:disguise_mod:
+    permissions:
+    - disguisecraft.other.disguise
+    - disguisecraft.player.*
+    - disguisecraft.mob.*
+    - disguisecraft.object.*
+    - disguisecraft.blocklock
+    - disguisecraft.nopickup

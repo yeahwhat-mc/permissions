@@ -1,0 +1,15 @@
+g:scs_guard:
+    permissions:
+    - scs.admin
+    - scs.create.display
+    - scs.manage
+    - scs.remove
+
+g:scs_admin:
+    permissions:
+    - scs.create.buy
+    - scs.create.sell
+    - scs.create.exchange
+    - scs.create.unlimited
+
+#- scs.use
