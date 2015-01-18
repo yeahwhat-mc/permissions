@@ -17,6 +17,10 @@ worlds:
         - base
         suffixes:
         - survival
+    survival_new:
+        folder: main_survival_normal_1-8_17-01-2015_2
+        inheritances:
+        - survival_overworld
     pvp_end:
         folder: war_end_pvp_1-7_15-12-2013
         inheritances:
