@@ -1002,6 +1002,147 @@ groups:
     - itemcase.destroy.other
     - itemcase.help
     - itemcase.modify.other
+  g:libsdisguises_admin:
+    permissions:
+    - libsdisguises.disguiseradius.*
+  g:libsdisguises_donator:
+    permissions:
+    - libsdisguises.disguise.arrow.*
+    - libsdisguises.disguise.bat.*
+    - libsdisguises.disguise.blaze.*
+    - libsdisguises.disguise.boat.*
+    - libsdisguises.disguise.cave_spider.*
+    - libsdisguises.disguise.chicken.*
+    - libsdisguises.disguise.cow.*
+    - libsdisguises.disguise.creeper.*
+    - libsdisguises.disguise.donkey.*
+    - libsdisguises.disguise.dropped_item.*
+    - libsdisguises.disguise.ender_crystal.*
+    - libsdisguises.disguise.ender_dragon.*
+    - libsdisguises.disguise.ender_pearl.*
+    - libsdisguises.disguise.ender_signal.*
+    - libsdisguises.disguise.enderman.*
+    - libsdisguises.disguise.experience_orb.*
+    - libsdisguises.disguise.falling_block.*
+    - libsdisguises.disguise.fireball.*
+    - libsdisguises.disguise.firework.*
+    - libsdisguises.disguise.fishing_hook.*
+    - libsdisguises.disguise.ghast.*
+    - libsdisguises.disguise.giant.*
+    - libsdisguises.disguise.horse.*
+    - libsdisguises.disguise.iron_golem.*
+    - libsdisguises.disguise.item_frame.*
+    - libsdisguises.disguise.leash_hitch.*
+    - libsdisguises.disguise.magma_cube.*
+    - libsdisguises.disguise.minecart.*
+    - libsdisguises.disguise.minecart_chest.*
+    - libsdisguises.disguise.minecart_furnace.*
+    - libsdisguises.disguise.minecart_hopper.*
+    - libsdisguises.disguise.minecart_mob_spawner.*
+    - libsdisguises.disguise.minecart_tnt.*
+    - libsdisguises.disguise.mule.*
+    - libsdisguises.disguise.mushroom_cow.*
+    - libsdisguises.disguise.ocelot.*
+    - libsdisguises.disguise.painting.*
+    - libsdisguises.disguise.pig.*
+    - libsdisguises.disguise.pig_zombie.*
+    - libsdisguises.disguise.primed_tnt.*
+    - libsdisguises.disguise.sheep.*
+    - libsdisguises.disguise.silverfish.*
+    - libsdisguises.disguise.skeleton.*
+    - libsdisguises.disguise.skeleton_horse.*
+    - libsdisguises.disguise.slime.*
+    - libsdisguises.disguise.small_fireball.*
+    - libsdisguises.disguise.snowball.*
+    - libsdisguises.disguise.snowman.*
+    - libsdisguises.disguise.spider.*
+    - libsdisguises.disguise.splash_potion.*
+    - libsdisguises.disguise.squid.*
+    - libsdisguises.disguise.thrown_exp_bottle.*
+    - libsdisguises.disguise.undead_horse.*
+    - libsdisguises.disguise.villager.*
+    - libsdisguises.disguise.witch.*
+    - libsdisguises.disguise.wither.*
+    - libsdisguises.disguise.wither_skeleton.*
+    - libsdisguises.disguise.wither_skull.*
+    - libsdisguises.disguise.wolf.*
+    - libsdisguises.disguise.zombie.*
+    - libsdisguises.disguise.zombie_villager.*
+    - libsdisguises.disguiseentity.*
+    - libsdisguises.undisguise
+    - libsdisguises.undisguiseentity
+  g:libsdisguises_guard:
+    permissions:
+    - libsdisguises.disguise.arrow.*
+    - libsdisguises.disguise.bat.*
+    - libsdisguises.disguise.blaze.*
+    - libsdisguises.disguise.boat.*
+    - libsdisguises.disguise.cave_spider.*
+    - libsdisguises.disguise.chicken.*
+    - libsdisguises.disguise.cow.*
+    - libsdisguises.disguise.creeper.*
+    - libsdisguises.disguise.donkey.*
+    - libsdisguises.disguise.dropped_item.*
+    - libsdisguises.disguise.ender_crystal.*
+    - libsdisguises.disguise.ender_dragon.*
+    - libsdisguises.disguise.ender_pearl.*
+    - libsdisguises.disguise.ender_signal.*
+    - libsdisguises.disguise.enderman.*
+    - libsdisguises.disguise.experience_orb.*
+    - libsdisguises.disguise.falling_block.*
+    - libsdisguises.disguise.fireball.*
+    - libsdisguises.disguise.firework.*
+    - libsdisguises.disguise.fishing_hook.*
+    - libsdisguises.disguise.ghast.*
+    - libsdisguises.disguise.giant.*
+    - libsdisguises.disguise.horse.*
+    - libsdisguises.disguise.iron_golem.*
+    - libsdisguises.disguise.item_frame.*
+    - libsdisguises.disguise.leash_hitch.*
+    - libsdisguises.disguise.magma_cube.*
+    - libsdisguises.disguise.minecart.*
+    - libsdisguises.disguise.minecart_chest.*
+    - libsdisguises.disguise.minecart_furnace.*
+    - libsdisguises.disguise.minecart_hopper.*
+    - libsdisguises.disguise.minecart_mob_spawner.*
+    - libsdisguises.disguise.minecart_tnt.*
+    - libsdisguises.disguise.mule.*
+    - libsdisguises.disguise.mushroom_cow.*
+    - libsdisguises.disguise.ocelot.*
+    - libsdisguises.disguise.painting.*
+    - libsdisguises.disguise.pig.*
+    - libsdisguises.disguise.pig_zombie.*
+    - libsdisguises.disguise.primed_tnt.*
+    - libsdisguises.disguise.sheep.*
+    - libsdisguises.disguise.silverfish.*
+    - libsdisguises.disguise.skeleton.*
+    - libsdisguises.disguise.skeleton_horse.*
+    - libsdisguises.disguise.slime.*
+    - libsdisguises.disguise.small_fireball.*
+    - libsdisguises.disguise.snowball.*
+    - libsdisguises.disguise.snowman.*
+    - libsdisguises.disguise.spider.*
+    - libsdisguises.disguise.splash_potion.*
+    - libsdisguises.disguise.squid.*
+    - libsdisguises.disguise.thrown_exp_bottle.*
+    - libsdisguises.disguise.undead_horse.*
+    - libsdisguises.disguise.villager.*
+    - libsdisguises.disguise.witch.*
+    - libsdisguises.disguise.wither.*
+    - libsdisguises.disguise.wither_skeleton.*
+    - libsdisguises.disguise.wither_skull.*
+    - libsdisguises.disguise.wolf.*
+    - libsdisguises.disguise.zombie.*
+    - libsdisguises.disguise.zombie_villager.*
+    - libsdisguises.disguiseentity.*
+    - libsdisguises.undisguise
+    - libsdisguises.undisguiseentity
+    - libsdisguises.undisguiseplayer
+    - libsdisguises.undisguiseradius
+  g:libsdisguises_mod:
+    permissions:
+    - libsdisguises.disguise.*.*
+    - libsdisguises.disguiseplayer.*
   g:logblock_admin:
     permissions:
     - logblock.clearlog

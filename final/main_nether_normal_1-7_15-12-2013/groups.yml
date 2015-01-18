@@ -19,6 +19,7 @@ groups:
     - g:groupmanager_admin
     - g:holoapi_admin
     - g:irc_admin
+    - g:libsdisguises_admin
     - g:logblock_admin
     - g:multiverse-inv_admin
     - g:multiverse-nether_admin
@@ -63,6 +64,7 @@ groups:
     - Trusted
     - g:disguise_donator
     - g:essentials_donator
+    - g:libsdisguises_donator
     permissions: []
   Guard:
     default: false
@@ -85,6 +87,7 @@ groups:
     - g:groupmanager_guard
     - g:holoapi_guard
     - g:itemcase_guard
+    - g:libsdisguises_guard
     - g:logblock_guard
     - g:lwc_guard
     - g:multiverse-inv_guard
@@ -138,6 +141,7 @@ groups:
     - g:disguise_mod
     - g:dynmap_mod
     - g:essentials_mod
+    - g:libsdisguises_mod
     - g:logblock_mod
     - g:lwc_mod
     - g:multiverse_mod
