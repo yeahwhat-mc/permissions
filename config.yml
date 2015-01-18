@@ -17,8 +17,16 @@ worlds:
         - base
         suffixes:
         - survival
-    survival_new:
-        folder: main_survival_normal_1-8_17-01-2015_2
+    survival_new_end:
+        folder: main_end_normal_1-8_17-01-2015
+        inheritances:
+        - survival_overworld
+    survival_new_nether:
+        folder: main_nether_normal_1-8_17-01-2015
+        inheritances:
+        - survival_overworld
+    survival_new_overworld:
+        folder: main_survival_normal_1-8_17-01-2015
         inheritances:
         - survival_overworld
     pvp_end:
