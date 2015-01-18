@@ -89,6 +89,7 @@ groups:
     - blacklist.egg
     - blacklist.hopper_minecart
     - blacklist.minecarts
+    - blacklist.slime_block
     - blacklist.sponge
     - blacklist.tnt
   g:blacklist_trusted_survival:

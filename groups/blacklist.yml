@@ -18,6 +18,7 @@ g:blacklist_trusted_creative:
     - blacklist.sponge
     - blacklist.minecarts
     - blacklist.hopper_minecart
+    - blacklist.slime_block
 
 g:blacklist_guard:
     permissions:
