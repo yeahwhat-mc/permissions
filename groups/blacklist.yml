@@ -9,6 +9,7 @@ g:blacklist_trusted_survival:
     - blacklist.experience_bottle
     - blacklist.minecarts
     - blacklist.hopper_minecart
+    - blacklist.slime_block
 
 g:blacklist_trusted_creative:
     permissions:

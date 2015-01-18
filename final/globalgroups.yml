@@ -96,6 +96,7 @@ groups:
     - blacklist.experience_bottle
     - blacklist.hopper_minecart
     - blacklist.minecarts
+    - blacklist.slime_block
     - blacklist.sponge
     - blacklist.tnt
   g:border_admin:
