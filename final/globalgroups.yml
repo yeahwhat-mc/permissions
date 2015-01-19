@@ -101,6 +101,7 @@ groups:
     - blacklist.slime_block
     - blacklist.sponge
     - blacklist.tnt
+    - blacklist.wither_skull
   g:border_admin:
     permissions:
     - worldborder.bypass

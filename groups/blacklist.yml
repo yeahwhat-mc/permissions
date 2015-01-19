@@ -10,6 +10,7 @@ g:blacklist_trusted_survival:
     - blacklist.minecarts
     - blacklist.hopper_minecart
     - blacklist.slime_block
+    - blacklist.wither_skull
 
 g:blacklist_trusted_creative:
     permissions:
