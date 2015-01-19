@@ -94,7 +94,6 @@ g:essentials_builder_creative:
     - essentials.fly
     - essentials.fly.safelogin
     - essentials.gamemode
-    - essentials.give
     - essentials.item
     - essentials.itemspawn.item-all
     - essentials.itemspawn.meta-title

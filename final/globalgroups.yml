@@ -616,7 +616,6 @@ groups:
     - essentials.fly
     - essentials.fly.safelogin
     - essentials.gamemode
-    - essentials.give
     - essentials.god
     - essentials.heal
     - essentials.item
