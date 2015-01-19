@@ -86,6 +86,7 @@ groups:
     - blacklist.wither_skull
   g:blacklist_trusted_creative:
     permissions:
+    - blacklist.barrierblock
     - blacklist.egg
     - blacklist.hopper_minecart
     - blacklist.minecarts
