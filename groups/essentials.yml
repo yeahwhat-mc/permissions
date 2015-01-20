@@ -102,7 +102,6 @@ g:essentials_builder_creative:
     - essentials.itemspawn.meta-book
     - essentials.itemspawn.meta-head
     - essentials.itemspawn.meta-firework
-    - essentials.god
     - essentials.heal
     - essentials.more
     - essentials.repair
