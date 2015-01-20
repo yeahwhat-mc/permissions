@@ -1,4 +1,18 @@
 groups:
+  g:actionannouncer_admin:
+    permissions:
+    - actionannouncer.reload
+  g:actionannouncer_guard:
+    permissions:
+    - actionannouncer.announce
+    - actionannouncer.send
+  g:actionannouncer_mod:
+    permissions:
+    - actionannounce.add
+    - actionannounce.list
+    - actionannounce.remove
+    - actionannouncer.start
+    - actionannouncer.stop
   g:animals_admin:
     permissions:
     - ProtectAnimals.reload
@@ -1274,6 +1288,18 @@ groups:
   g:ping_guard:
     permissions:
     - ping.others
+  g:titlemanager_admin:
+    permissions:
+    - titlemanager.command.reload
+  g:titlemanager_guard:
+    permissions:
+    - titlemanager.command.amessage
+    - titlemanager.command.animations
+    - titlemanager.command.message
+  g:titlemanagerwe_mod:
+    permissions:
+    - titlemanager.command.abroadcast
+    - titlemanager.command.broadcast
   g:vanish_admin:
     permissions:
     - vanish.adminalerts

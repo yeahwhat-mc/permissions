@@ -1,0 +1,14 @@
+g:titlemanager_guard:
+    permissions:
+    - titlemanager.command.message
+    - titlemanager.command.amessage
+    - titlemanager.command.animations
+
+g:titlemanagerwe_mod:
+    permissions:
+    - titlemanager.command.broadcast
+    - titlemanager.command.abroadcast
+
+g:titlemanager_admin:
+    permissions:
+    - titlemanager.command.reload

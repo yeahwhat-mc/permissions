@@ -7,6 +7,7 @@ groups:
       suffix: '&r'
     inheritance:
     - Moderator
+    - g:actionannouncer_admin
     - g:animals_admin
     - g:awe_admin
     - g:banman_admin
@@ -25,6 +26,7 @@ groups:
     - g:multiverse-nether_admin
     - g:multiverse_admin
     - g:nocheat_admin
+    - g:titlemanager_admin
     - g:vanish_admin
     - g:vote_admin
     - g:worldedit_admin
@@ -80,6 +82,7 @@ groups:
       suffix: '&r'
     inheritance:
     - Trusted
+    - g:actionannouncer_guard
     - g:animals_guard
     - g:awe_guard
     - g:banman_guard
@@ -101,6 +104,7 @@ groups:
     - g:multiverse_guard
     - g:nocheat_guard
     - g:ping_guard
+    - g:titlemanager_guard
     - g:vanish_guard
     - g:vote_guard
     - g:whois_guard
@@ -137,6 +141,7 @@ groups:
       suffix: '&r'
     inheritance:
     - Guard
+    - g:actionannouncer_mod
     - g:awe_mod
     - g:banman_mod
     - g:blacklist_mod
@@ -153,6 +158,7 @@ groups:
     - g:lwc_mod
     - g:multiverse_mod
     - g:nocheat_mod
+    - g:titlemanagerwe_mod
     - g:worldedit_mod
     - g:worldguard_mod
     - g:xpbank_mod

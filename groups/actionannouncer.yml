@@ -1,0 +1,16 @@
+g:actionannouncer_guard:
+    permissions:
+    - actionannouncer.send
+    - actionannouncer.announce
+
+g:actionannouncer_mod:
+    permissions:
+    - actionannouncer.start
+    - actionannouncer.stop
+    - actionannounce.add
+    - actionannounce.remove
+    - actionannounce.list
+
+g:actionannouncer_admin:
+    permissions:
+    - actionannouncer.reload
