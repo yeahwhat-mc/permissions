@@ -60,6 +60,7 @@ groups:
       prefix: '&7[$$$]&6'
       suffix: '&r'
     inheritance:
+    - -g:disguise_donator
     - Trusted
     - g:libsdisguises_donator
     permissions: []
@@ -70,6 +71,7 @@ groups:
       prefix: '&7[Guard]&b'
       suffix: '&r'
     inheritance:
+    - -g:disguise_guard
     - Trusted
     - g:actionannouncer_guard
     - g:awe_guard
@@ -99,6 +101,7 @@ groups:
       prefix: '&7[Guest]&e'
       suffix: '&r'
     inheritance:
+    - -g:disguise_default
     - g:banman_default
     - g:bukkit_default
     - g:groupmanager_default
@@ -117,6 +120,7 @@ groups:
       prefix: '&7[Mod]&3'
       suffix: '&r'
     inheritance:
+    - -g:disguise_mod
     - Guard
     - g:actionannouncer_mod
     - g:awe_mod

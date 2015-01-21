@@ -496,27 +496,6 @@ groups:
     - craftconomy.account.create
     - craftconomy.account.delete
     - craftconomy.bank.delete
-  g:disguise_default:
-    permissions:
-    - -disguisecraft.notarget
-    - disguisecraft.burning
-  g:disguise_donator:
-    permissions:
-    - disguisecraft.mob.*
-    - disguisecraft.noarmor
-    - disguisecraft.object.*
-  g:disguise_guard:
-    permissions:
-    - disguisecraft.other.undisguise
-    - disguisecraft.seer
-  g:disguise_mod:
-    permissions:
-    - disguisecraft.blocklock
-    - disguisecraft.mob.*
-    - disguisecraft.nopickup
-    - disguisecraft.object.*
-    - disguisecraft.other.disguise
-    - disguisecraft.player.*
   g:dynmap_admin:
     permissions:
     - dynmap.cancelrender
