@@ -4,37 +4,37 @@ g:banman_default:
 
 g:banman_trusted:
     permissions:
-    - bm.bminfo
+    - bm.command.bminfo
 
 g:banman_guard:
     permissions:
-    - bm.tempban
     - bm.notify.duplicateips
+    - bm.command.tempban
+    - bm.command.tempbanip
+    - bm.command.kick
+    - bm.command.tempmute
+    - bm.command.unmute
+    - bm.command.warn
     - bm.tempbanoffline
-    - bm.tempbanip
-    - bm.kick
-    - bm.tempmute
-    - bm.unmute
-    - bm.warn
     - bm.timelimit.mutes.Guard
     - bm.timelimit.bans.Guard
 
 g:banman_mod:
     permissions:
-    - bm.ban
-    - bm.unban
+    - bm.command.ban
+    - bm.command.unban
+    - bm.command.banip
+    - bm.command.unbanip
+    - bm.command.mute
     - bm.banoffline
-    - bm.banip
-    - bm.unbanip
-    - bm.mute
     - bm.timelimit.bans.bypass
     - bm.timelimit.mutes.bypass
 
 g:banman_admin:
     permissions:
-    - bm.import
-    - bm.update
-    - bm.reload
+    - bm.command.import
+    - bm.command.update
+    - bm.command.reload
 
 #- bm.exempt.kick
 #- bm.exempt.ban

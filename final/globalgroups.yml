@@ -50,37 +50,37 @@ groups:
     - AWE.user.purge
   g:banman_admin:
     permissions:
-    - bm.import
-    - bm.reload
-    - bm.update
+    - bm.command.import
+    - bm.command.reload
+    - bm.command.update
   g:banman_default:
     permissions:
     - bm.notify
   g:banman_guard:
     permissions:
-    - bm.kick
+    - bm.command.kick
+    - bm.command.tempban
+    - bm.command.tempbanip
+    - bm.command.tempmute
+    - bm.command.unmute
+    - bm.command.warn
     - bm.notify.duplicateips
-    - bm.tempban
-    - bm.tempbanip
     - bm.tempbanoffline
-    - bm.tempmute
     - bm.timelimit.bans.Guard
     - bm.timelimit.mutes.Guard
-    - bm.unmute
-    - bm.warn
   g:banman_mod:
     permissions:
-    - bm.ban
-    - bm.banip
     - bm.banoffline
-    - bm.mute
+    - bm.command.ban
+    - bm.command.banip
+    - bm.command.mute
+    - bm.command.unban
+    - bm.command.unbanip
     - bm.timelimit.bans.bypass
     - bm.timelimit.mutes.bypass
-    - bm.unban
-    - bm.unbanip
   g:banman_trusted:
     permissions:
-    - bm.bminfo
+    - bm.command.bminfo
   g:blacklist_builder_survival:
     permissions:
     - blacklist.egg
