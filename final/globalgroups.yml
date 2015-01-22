@@ -165,6 +165,23 @@ groups:
     - bukkit.command.whitelist.list
     - bukkit.command.whitelist.reload
     - bukkit.command.whitelist.remove
+    - minecraft.command.debug
+    - minecraft.command.defaultgamemode
+    - minecraft.command.difficulty
+    - minecraft.command.execute
+    - minecraft.command.gamerule
+    - minecraft.command.save-all
+    - minecraft.command.save-off
+    - minecraft.command.save-on
+    - minecraft.command.say
+    - minecraft.command.scoreboard
+    - minecraft.command.setidletimeout
+    - minecraft.command.setworldspawn
+    - minecraft.command.stats
+    - minecraft.command.stop
+    - minecraft.command.trigger
+    - minecraft.command.whitelist
+    - minecraft.command.worldborder
   g:bukkit_builder:
     permissions:
     - bukkit.command.tps
@@ -175,6 +192,11 @@ groups:
     - bukkit.command.give
     - bukkit.command.spawnpoint
     - bukkit.command.teleport
+    - minecraft.command.enchant
+    - minecraft.command.gamemode
+    - minecraft.command.give
+    - minecraft.command.spawnpoint
+    - minecraft.command.tp
   g:bukkit_default:
     permissions:
     - bukkit.broadcast.user
@@ -184,6 +206,12 @@ groups:
     - bukkit.command.list
     - bukkit.command.me
     - bukkit.command.tell
+    - minecraft.command.banlist
+    - minecraft.command.help
+    - minecraft.command.kill
+    - minecraft.command.list
+    - minecraft.command.me
+    - minecraft.command.tell
   g:bukkit_guard:
     permissions:
     - bukkit.command.clear
@@ -197,6 +225,21 @@ groups:
     - bukkit.command.toggledownfall
     - bukkit.command.version
     - bukkit.command.weather
+    - minecraft.command.clear
+    - minecraft.command.gamemode
+    - minecraft.command.give
+    - minecraft.command.particle
+    - minecraft.command.playsound
+    - minecraft.command.replaceitem
+    - minecraft.command.spawnpoint
+    - minecraft.command.testfor
+    - minecraft.command.testforblock
+    - minecraft.command.testforblocks
+    - minecraft.command.time
+    - minecraft.command.title
+    - minecraft.command.toggledownfall
+    - minecraft.command.tp
+    - minecraft.command.weather
   g:bukkit_mod:
     permissions:
     - bukkit.command.achievement
@@ -208,9 +251,27 @@ groups:
     - bukkit.command.unban.ip
     - bukkit.command.unban.player
     - bukkit.command.xp
+    - minecraft.command.achievement
+    - minecraft.command.ban
+    - minecraft.command.ban-ip
+    - minecraft.command.blockdata
+    - minecraft.command.clone
+    - minecraft.command.effect
+    - minecraft.command.enchant
+    - minecraft.command.entitydata
+    - minecraft.command.fill
+    - minecraft.command.kick
+    - minecraft.command.pardon
+    - minecraft.command.pardon-ip
+    - minecraft.command.setblock
+    - minecraft.command.spreadplayers
+    - minecraft.command.summon
+    - minecraft.command.tellraw
+    - minecraft.command.xp
   g:bukkit_trusted:
     permissions:
     - bukkit.command.seed
+    - minecraft.command.seed
   g:chestshop_builder:
     permissions:
     - ChestShop.shop.buy

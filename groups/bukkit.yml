@@ -7,6 +7,12 @@ g:bukkit_default:
     - bukkit.command.ban.list
     - bukkit.command.list
     - bukkit.broadcast.user
+    - minecraft.command.tell
+    - minecraft.command.kill
+    - minecraft.command.me
+    - minecraft.command.help
+    - minecraft.command.banlist
+    - minecraft.command.list
 
 g:bukkit_builder:
     permissions:
@@ -19,10 +25,17 @@ g:bukkit_builder_creative:
     - bukkit.command.gamemode
     - bukkit.command.spawnpoint
     - bukkit.command.enchant
+    - minecraft.command.tp
+    - minecraft.command.give
+    - minecraft.command.gamemode
+    - minecraft.command.spawnpoint
+    - minecraft.command.enchant
+
 
 g:bukkit_trusted:
     permissions:
     - bukkit.command.seed
+    - minecraft.command.seed
 
 g:bukkit_guard:
     permissions:
@@ -37,6 +50,22 @@ g:bukkit_guard:
     - bukkit.command.toggledownfall
     - bukkit.command.clear
     - bukkit.command.spawnpoint
+    - minecraft.command.tp
+    - minecraft.command.give
+    - minecraft.command.time
+    - minecraft.command.weather
+    - minecraft.command.gamemode
+    - minecraft.command.toggledownfall
+    - minecraft.command.clear
+    - minecraft.command.spawnpoint
+
+    - minecraft.command.particle
+    - minecraft.command.playsound
+    - minecraft.command.replaceitem
+    - minecraft.command.testfor
+    - minecraft.command.testforblock
+    - minecraft.command.testforblocks
+    - minecraft.command.title
 
 g:bukkit_mod:
     permissions:
@@ -49,6 +78,25 @@ g:bukkit_mod:
     - bukkit.command.enchant
     - bukkit.command.effect
     - bukkit.command.achievement
+    - minecraft.command.ban
+    - minecraft.command.pardon
+    - minecraft.command.ban-ip
+    - minecraft.command.pardon-ip
+    - minecraft.command.kick
+    - minecraft.command.xp
+    - minecraft.command.enchant
+    - minecraft.command.effect
+    - minecraft.command.achievement
+
+    - minecraft.command.blockdata
+    - minecraft.command.clone
+    - minecraft.command.entitydata
+    - minecraft.command.fill
+    - minecraft.command.setblock
+    - minecraft.command.spreadplayers
+    - minecraft.command.summon
+    - minecraft.command.tellraw
+
 
 g:bukkit_admin:
     permissions:
@@ -70,7 +118,28 @@ g:bukkit_admin:
     - bukkit.command.gamerule
     - bukkit.command.setidletimeout
     - bukkit.command.setworldspawn
+    - minecraft.command.stop
+    - minecraft.command.save-all
+    - minecraft.command.save-off
+    - minecraft.command.save-on
+    - minecraft.command.say
+    - minecraft.command.whitelist
+    - minecraft.command.defaultgamemode
+    - minecraft.command.difficulty
+    - minecraft.command.gamerule
+    - minecraft.command.setidletimeout
+    - minecraft.command.setworldspawn
+
+    - minecraft.command.debug
+    - minecraft.command.execute
+    - minecraft.command.scoreboard
+    - minecraft.command.stats
+    - minecraft.command.trigger
+    - minecraft.command.worldborder
 
 #- bukkit.command.op.give
 #- bukkit.command.op.take
+#- minecraft.command.op
+#- minecraft.command.deop
 #- bukkit.broadcast.admin
+#- minecraft.command.publish
