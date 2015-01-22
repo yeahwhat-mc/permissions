@@ -13,7 +13,6 @@ groups:
     - g:border_admin
     - g:bukkit_admin
     - g:groupmanager_admin
-    - g:holoapi_admin
     - g:irc_admin
     - g:libsdisguises_admin
     - g:logblock_admin
@@ -79,7 +78,6 @@ groups:
     - g:blacklist_guard
     - g:bukkit_guard
     - g:groupmanager_guard
-    - g:holoapi_guard
     - g:itemcase_guard
     - g:libsdisguises_guard
     - g:logblock_guard

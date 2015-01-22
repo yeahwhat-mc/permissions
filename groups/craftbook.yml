@@ -26,6 +26,8 @@ g:craftbook_builder:
     - craftbook.mech.signcopy.edit
     - craftbook.mech.teleporter.use
     - craftbook.circuits.pipes
+    - craftbook.mech.footprints.use
+    - craftbook.mech.footprints.see
 
 g:craftbook_builder_creative:
     permissions:
