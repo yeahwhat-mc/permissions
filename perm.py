@@ -33,6 +33,7 @@ def merge_worlds(world, update):
             addnodes(newgroup["inheritance"], prop["inheritance"])
     return groups
 
+# Adds missing values to a group to prevent key errors
 def fixgroup(group):
     if "permissions" not in group:
         group["permissions"] = list()
@@ -41,17 +42,23 @@ def fixgroup(group):
     if "default" not in group:
         group["default"] = False
     return group
-                    
+
+# Merges a list of permission nodes and checks the prefixes
 def addnodes(nodeset, nodes):
     for node in nodes:
+        # Skip existing nodes
         if node in nodeset:
             continue
         elif node.startswith("-"):
+            # Check for a positive node with the same name and remove it
             if node[1:] in nodeset:
                 nodeset.remove(node[1:])
+            # Only add a negative node, if a positive one hasn't been 
+            # removed and it doesn't already exist
             elif node not in nodeset:
                 nodeset.append(node)
         else:
+            # Same as above with the sign inverted
             if "-"+node in nodeset:
                 nodeset.remove("-"+node)
             elif node not in nodeset:
