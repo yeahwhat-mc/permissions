@@ -14,7 +14,6 @@ groups:
     - g:bukkit_admin
     - g:groupmanager_admin
     - g:irc_admin
-    - g:libsdisguises_admin
     - g:logblock_admin
     - g:multiverse-inv_admin
     - g:multiverse-nether_admin
@@ -59,9 +58,7 @@ groups:
       prefix: '&7[$$$]&6'
       suffix: '&r'
     inheritance:
-    - -g:disguise_donator
     - Trusted
-    - g:libsdisguises_donator
     permissions: []
   Guard:
     default: false
@@ -70,7 +67,6 @@ groups:
       prefix: '&7[Guard]&b'
       suffix: '&r'
     inheritance:
-    - -g:disguise_guard
     - Trusted
     - g:actionannouncer_guard
     - g:awe_guard
@@ -79,7 +75,6 @@ groups:
     - g:bukkit_guard
     - g:groupmanager_guard
     - g:itemcase_guard
-    - g:libsdisguises_guard
     - g:logblock_guard
     - g:lwc_guard
     - g:multiverse-inv_guard
@@ -99,7 +94,6 @@ groups:
       prefix: '&7[Guest]&e'
       suffix: '&r'
     inheritance:
-    - -g:disguise_default
     - g:banman_default
     - g:bukkit_default
     - g:groupmanager_default
@@ -118,14 +112,12 @@ groups:
       prefix: '&7[Mod]&3'
       suffix: '&r'
     inheritance:
-    - -g:disguise_mod
     - Guard
     - g:actionannouncer_mod
     - g:awe_mod
     - g:banman_mod
     - g:blacklist_mod
     - g:bukkit_mod
-    - g:libsdisguises_mod
     - g:logblock_mod
     - g:multiverse_mod
     - g:nocheat_mod

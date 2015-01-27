@@ -6,7 +6,6 @@ groups:
     - essentials.spawn
     inheritance:
     - -g:craftbook_default
-    - -g:disguise_default
     - -g:essentials_default
     - -g:animals_default
     - -g:worldedit_default
@@ -54,14 +53,14 @@ groups:
 
   Donator:
     inheritance:
-    - -g:disguise_donator
+    - -g:libsdisguises_donator
     - -g:essentials_donator
 
   Guard:
     inheritance:
     - -g:chestshop_guard
     - -g:craftconomy_guard
-    - -g:disguise_guard
+    - -g:libsdisguises_guard
     - -g:dynmap_guard
     - -g:essentials_guard
     - -g:animals_guard
@@ -75,7 +74,7 @@ groups:
     - -g:craftbook_mod
     - -g:craftbookic_mod
     - -g:craftconomy_mod
-    - -g:disguise_mod
+    - -g:libsdisguises_mod
     - -g:dynmap_mod
     - -g:essentials_mod
     - -g:lwc_mod
@@ -87,6 +86,7 @@ groups:
     - -g:craftbook_admin
     - -g:craftconomy_admin
     - -g:dynmap_admin
+    - -g:libsdisguises_admin
     - -g:essentials_admin
     - -g:animals_admin
     - -g:vote_admin
