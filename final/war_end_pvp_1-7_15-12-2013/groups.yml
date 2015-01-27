@@ -51,6 +51,8 @@ groups:
     - -vote.voteyes.night
     - -vote.voteyes.rain
     - -vote.voteyes.sun
+    - essentials.back
+    - essentials.back.ondeath
   Donator:
     default: false
     info:
