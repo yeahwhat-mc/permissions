@@ -1,8 +1,8 @@
 groups:
   Guest:
     permissions:
-    - -essentials.back
-    - -essentials.back.ondeath
+    # - -essentials.back
+    # - -essentials.back.ondeath
     - essentials.spawn
     inheritance:
     - -g:craftbook_default

@@ -102,8 +102,6 @@ groups:
     - g:ping_default
     - g:whois_default
     permissions:
-    - -essentials.back
-    - -essentials.back.ondeath
     - essentials.spawn
   Moderator:
     default: false
