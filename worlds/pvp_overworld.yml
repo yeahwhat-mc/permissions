@@ -1,8 +1,6 @@
 groups:
   Guest:
     permissions:
-    - essentials.back
-    - essentials.back.ondeath
     - essentials.spawn
     inheritance:
     - -g:craftbook_default
@@ -28,6 +26,8 @@ groups:
     - -vote.startvote.rain
     - -vote.startvote.sun
     - -lwc.protect
+    - essentials.back
+    - essentials.back.ondeath
     inheritance:
     - -g:blacklist_builder_survival
     - -g:chestshop_builder
