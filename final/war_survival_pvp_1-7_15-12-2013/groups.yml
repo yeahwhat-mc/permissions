@@ -33,6 +33,7 @@ groups:
     - Guest
     - g:bukkit_builder
     - g:chestshoplogger_builder
+    - g:essentials_builder_survival
     - g:statistics_builder
     - g:worldguard_builder
     permissions:

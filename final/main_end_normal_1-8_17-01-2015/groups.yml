@@ -49,6 +49,7 @@ groups:
     - g:craftconomy_builder
     - g:dynmap_builder
     - g:essentials_builder
+    - g:essentials_builder_survival
     - g:lwc_builder
     - g:statistics_builder
     - g:vote_builder

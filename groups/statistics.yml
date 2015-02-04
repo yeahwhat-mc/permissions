@@ -11,3 +11,7 @@ g:statistics_builder:
     - stats.cmd.help
     - stats.cmd.book
     - stats.cmd.board
+
+g:essentials_builder_survival:
+    permissions:
+    - -stats.cmd.book

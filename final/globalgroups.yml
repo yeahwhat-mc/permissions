@@ -702,6 +702,9 @@ groups:
     - essentials.speed.walk
     - essentials.tppos
     - essentials.workbench
+  g:essentials_builder_survival:
+    permissions:
+    - -stats.cmd.book
   g:essentials_default:
     permissions:
     - -essentials.worlds.war_end_pvp_1-7_15-12-2013
