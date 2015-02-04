@@ -1308,6 +1308,18 @@ groups:
   g:ping_guard:
     permissions:
     - ping.others
+  g:statistics_builder:
+    permissions:
+    - stats.cmd.board
+    - stats.cmd.book
+    - stats.cmd.help
+  g:statistics_default:
+    permissions:
+    - stats.track.block
+    - stats.track.death
+    - stats.track.item
+    - stats.track.misc
+    - stats.track.move
   g:titlemanager_admin:
     permissions:
     - titlemanager.command.reload

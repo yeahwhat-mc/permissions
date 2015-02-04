@@ -52,6 +52,7 @@ groups:
     - g:essentials_builder
     - g:essentials_builder_creative
     - g:lwc_builder
+    - g:statistics_builder
     - g:vote_builder
     - g:worldedit_builder
     - g:worldguard_builder
@@ -123,6 +124,7 @@ groups:
     - g:irc_default
     - g:multiverse_default
     - g:ping_default
+    - g:statistics_default
     - g:whois_default
     - g:worldedit_default
     permissions: []

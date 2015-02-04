@@ -33,6 +33,7 @@ groups:
     - Guest
     - g:bukkit_builder
     - g:chestshoplogger_builder
+    - g:statistics_builder
     - g:worldguard_builder
     permissions:
     - -essentials.sethome.multiple.default
@@ -105,6 +106,7 @@ groups:
     - g:irc_default
     - g:multiverse_default
     - g:ping_default
+    - g:statistics_default
     - g:whois_default
     permissions:
     - essentials.spawn

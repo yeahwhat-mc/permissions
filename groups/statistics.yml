@@ -1,0 +1,13 @@
+g:statistics_default:
+    permissions:
+    - stats.track.move
+    - stats.track.item
+    - stats.track.block
+    - stats.track.death
+    - stats.track.misc
+
+g:statistics_builder:
+    permissions:
+    - stats.cmd.help
+    - stats.cmd.book
+    - stats.cmd.board
