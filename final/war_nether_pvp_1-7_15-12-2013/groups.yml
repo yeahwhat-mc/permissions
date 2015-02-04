@@ -80,6 +80,7 @@ groups:
     - g:banman_guard
     - g:blacklist_guard
     - g:bukkit_guard
+    - g:editablesigns_guard
     - g:groupmanager_guard
     - g:itemcase_guard
     - g:logblock_guard
@@ -103,6 +104,7 @@ groups:
     inheritance:
     - g:banman_default
     - g:bukkit_default
+    - g:editablesigns_default
     - g:groupmanager_default
     - g:irc_default
     - g:multiverse_default

@@ -1,0 +1,7 @@
+g:editablesigns_default:
+    permissions:
+    - editablesign.edit
+
+g:editablesigns_guard:
+    permissions:
+    - editablesign.admin

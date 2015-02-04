@@ -622,6 +622,12 @@ groups:
     - dynmap.sendtoweb
     - dynmap.show.self
     - dynmap.stats
+  g:editablesigns_default:
+    permissions:
+    - editablesign.edit
+  g:editablesigns_guard:
+    permissions:
+    - editablesign.admin
   g:essentials_admin:
     permissions:
     - essentials.backup

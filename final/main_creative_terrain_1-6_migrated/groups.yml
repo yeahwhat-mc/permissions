@@ -90,6 +90,7 @@ groups:
     - g:chestshop_guard
     - g:craftconomy_guard
     - g:dynmap_guard
+    - g:editablesigns_guard
     - g:essentials_guard
     - g:groupmanager_guard
     - g:itemcase_guard
@@ -121,6 +122,7 @@ groups:
     - g:banman_default
     - g:bukkit_default
     - g:craftbook_default
+    - g:editablesigns_default
     - g:essentials_default
     - g:groupmanager_default
     - g:irc_default
