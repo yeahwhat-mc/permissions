@@ -54,6 +54,7 @@ groups:
     - -vote.voteyes.sun
     - essentials.back
     - essentials.back.ondeath
+    - essentials.sethome
     - essentials.sethome.multiple.pvp
   Donator:
     default: false

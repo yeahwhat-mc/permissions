@@ -29,6 +29,7 @@ groups:
     - -lwc.protect
     - essentials.back
     - essentials.back.ondeath
+    - essentials.sethome
     - essentials.sethome.multiple.pvp
 
     inheritance:
