@@ -10,6 +10,7 @@ groups:
 
   Builder:
     permissions:
+    - -essentials.sethome.multiple.default
     - -essentials.tpa
     - -essentials.tpaccept
     - -essentials.tpdeny
@@ -28,6 +29,8 @@ groups:
     - -lwc.protect
     - essentials.back
     - essentials.back.ondeath
+    - essentials.sethome.multiple.pvp
+
     inheritance:
     - -g:blacklist_builder_survival
     - -g:chestshop_builder

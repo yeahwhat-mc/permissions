@@ -35,6 +35,7 @@ groups:
     - g:chestshoplogger_builder
     - g:worldguard_builder
     permissions:
+    - -essentials.sethome.multiple.default
     - -essentials.tpa
     - -essentials.tpaccept
     - -essentials.tpdeny
@@ -53,6 +54,7 @@ groups:
     - -vote.voteyes.sun
     - essentials.back
     - essentials.back.ondeath
+    - essentials.sethome.multiple.pvp
   Donator:
     default: false
     info:
