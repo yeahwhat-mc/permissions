@@ -55,7 +55,17 @@ groups:
     - bm.command.update
   g:banman_default:
     permissions:
-    - bm.notify
+    - bm.notify.ban
+    - bm.notify.ipban
+    - bm.notify.kick
+    - bm.notify.mute
+    - bm.notify.tempban
+    - bm.notify.tempipban
+    - bm.notify.tempmute
+    - bm.notify.unban
+    - bm.notify.unipban
+    - bm.notify.unmute
+    - bm.notify.warn
   g:banman_guard:
     permissions:
     - bm.command.kick
