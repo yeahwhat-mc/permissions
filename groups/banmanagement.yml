@@ -10,11 +10,15 @@ g:banman_guard:
     permissions:
     - bm.notify.duplicateips
     - bm.command.tempban
+    - bm.command.tempban.offline
     - bm.command.tempbanip
+    - bm.command.tempbanip.offline
     - bm.command.kick
     - bm.command.tempmute
+    - bm.command.tempmute.offline
     - bm.command.unmute
     - bm.command.warn
+    - bm.command.warn.offline
     - bm.tempbanoffline
     - bm.timelimit.mutes.Guard
     - bm.timelimit.bans.Guard
@@ -22,10 +26,13 @@ g:banman_guard:
 g:banman_mod:
     permissions:
     - bm.command.ban
+    - bm.command.ban.offline
     - bm.command.unban
     - bm.command.banip
+    - bm.command.banip.offline
     - bm.command.unbanip
     - bm.command.mute
+    - bm.command.mute.offline
     - bm.banoffline
     - bm.timelimit.bans.bypass
     - bm.timelimit.mutes.bypass

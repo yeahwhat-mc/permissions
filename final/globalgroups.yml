@@ -60,10 +60,14 @@ groups:
     permissions:
     - bm.command.kick
     - bm.command.tempban
+    - bm.command.tempban.offline
     - bm.command.tempbanip
+    - bm.command.tempbanip.offline
     - bm.command.tempmute
+    - bm.command.tempmute.offline
     - bm.command.unmute
     - bm.command.warn
+    - bm.command.warn.offline
     - bm.notify.duplicateips
     - bm.tempbanoffline
     - bm.timelimit.bans.Guard
@@ -72,8 +76,11 @@ groups:
     permissions:
     - bm.banoffline
     - bm.command.ban
+    - bm.command.ban.offline
     - bm.command.banip
+    - bm.command.banip.offline
     - bm.command.mute
+    - bm.command.mute.offline
     - bm.command.unban
     - bm.command.unbanip
     - bm.timelimit.bans.bypass
