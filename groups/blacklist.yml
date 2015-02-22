@@ -21,6 +21,7 @@ g:blacklist_trusted_creative:
     - blacklist.hopper_minecart
     - blacklist.slime_block
     - blacklist.barrierblock
+    - blacklist.experience_bottle
 
 g:blacklist_guard:
     permissions:

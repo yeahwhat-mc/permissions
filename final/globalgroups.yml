@@ -124,6 +124,7 @@ groups:
     permissions:
     - blacklist.barrierblock
     - blacklist.egg
+    - blacklist.experience_bottle
     - blacklist.hopper_minecart
     - blacklist.minecarts
     - blacklist.slime_block
