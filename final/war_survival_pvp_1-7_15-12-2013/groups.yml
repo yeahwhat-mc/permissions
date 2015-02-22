@@ -76,6 +76,7 @@ groups:
     inheritance:
     - Trusted
     - g:actionannouncer_guard
+    - g:adminprivatechat_guard
     - g:awe_guard
     - g:banman_guard
     - g:blacklist_guard

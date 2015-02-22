@@ -1,0 +1,5 @@
+g:adminprivatechat_guard:
+    permissions:
+    - adminchat.send
+    - adminchat.receive
+    - adminchat.toggle

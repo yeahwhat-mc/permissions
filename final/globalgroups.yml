@@ -13,6 +13,11 @@ groups:
     - actionannounce.remove
     - actionannouncer.start
     - actionannouncer.stop
+  g:adminprivatechat_guard:
+    permissions:
+    - adminchat.receive
+    - adminchat.send
+    - adminchat.toggle
   g:animals_admin:
     permissions:
     - ProtectAnimals.reload
