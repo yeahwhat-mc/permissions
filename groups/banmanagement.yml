@@ -32,6 +32,11 @@ g:banman_guard:
     - bm.tempbanoffline
     - bm.timelimit.mutes.Guard
     - bm.timelimit.bans.Guard
+    - bm.command.info.history.bans
+    - bm.command.bminfo.history.mutes
+    - bm.command.bminfo.history.warnings
+    - bm.command.bminfo.history.kicks
+    - bm.command.bminfo.history.notes
 
 g:banman_mod:
     permissions:
@@ -46,6 +51,12 @@ g:banman_mod:
     - bm.banoffline
     - bm.timelimit.bans.bypass
     - bm.timelimit.mutes.bypass
+    - bm.command.delete
+    - bm.command.delete.banrecords
+    - bm.command.delete.kicks
+    - bm.command.delete.muterecords
+    - bm.command.delete.notes
+    - bm.command.delete.warnings
 
 g:banman_admin:
     permissions:

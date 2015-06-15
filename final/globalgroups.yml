@@ -73,6 +73,11 @@ groups:
     - bm.notify.warn
   g:banman_guard:
     permissions:
+    - bm.command.bminfo.history.kicks
+    - bm.command.bminfo.history.mutes
+    - bm.command.bminfo.history.notes
+    - bm.command.bminfo.history.warnings
+    - bm.command.info.history.bans
     - bm.command.kick
     - bm.command.tempban
     - bm.command.tempban.offline
@@ -94,6 +99,12 @@ groups:
     - bm.command.ban.offline
     - bm.command.banip
     - bm.command.banip.offline
+    - bm.command.delete
+    - bm.command.delete.banrecords
+    - bm.command.delete.kicks
+    - bm.command.delete.muterecords
+    - bm.command.delete.notes
+    - bm.command.delete.warnings
     - bm.command.mute
     - bm.command.mute.offline
     - bm.command.unban
