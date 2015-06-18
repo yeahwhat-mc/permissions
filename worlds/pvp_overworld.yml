@@ -65,7 +65,7 @@ groups:
 
   Guard:
     permissions:
-    - essentials.afk
+    - essentials.afk.auto
 
     inheritance:
     - g:essentials_default

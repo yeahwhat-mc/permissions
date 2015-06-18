@@ -109,7 +109,7 @@ groups:
     - g:worldedit_guard
     - g:worldguard_guard
     permissions:
-    - essentials.afk
+    - essentials.afk.auto
   Guest:
     default: true
     info:
