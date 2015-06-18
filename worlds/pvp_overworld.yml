@@ -7,6 +7,7 @@ groups:
     - -g:essentials_default
     - -g:animals_default
     - -g:worldedit_default
+    - essentials.chat.url
 
   Builder:
     permissions:
@@ -31,6 +32,9 @@ groups:
     - essentials.back.ondeath
     - essentials.sethome
     - essentials.sethome.multiple.pvp
+    - essentials.signs.format
+    - essentials.signs.magic
+    - essentials.signs.color
 
     inheritance:
     - -g:blacklist_builder_survival
@@ -38,7 +42,6 @@ groups:
     - -g:craftbook_builder
     - -g:craftbookic_builder
     - -g:craftconomy_builder
-    - -g:dynmap_builder
     - -g:essentials_builder
     - -g:lwc_builder
     - -g:vote_builder
@@ -50,7 +53,6 @@ groups:
     - -g:blacklist_trusted_survival
     - -g:craftbook_trusted
     - -g:craftbookic_trusted
-    - -g:dynmap_trusted
     - -g:essentials_trusted
     - -g:lwc_trusted
     - -g:animals_trusted
@@ -65,11 +67,9 @@ groups:
     - -g:chestshop_guard
     - -g:craftconomy_guard
     - -g:libsdisguises_guard
-    - -g:dynmap_guard
     - -g:essentials_guard
     - -g:animals_guard
     - -g:vote_guard
-    - -g:worldedit_guard
     - -g:xpbank_guard
 
   Moderator:
@@ -79,20 +79,15 @@ groups:
     - -g:craftbookic_mod
     - -g:craftconomy_mod
     - -g:libsdisguises_mod
-    - -g:dynmap_mod
     - -g:essentials_mod
-    - -g:lwc_mod
-    - -g:worldedit_mod
     - -g:xpbank_mod
 
   Admin:
     inheritance:
     - -g:craftbook_admin
     - -g:craftconomy_admin
-    - -g:dynmap_admin
     - -g:libsdisguises_admin
     - -g:essentials_admin
     - -g:animals_admin
     - -g:vote_admin
-    - -g:worldedit_admin
     - -g:xpbank_admin

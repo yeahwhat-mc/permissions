@@ -12,6 +12,7 @@ groups:
     - g:banman_admin
     - g:border_admin
     - g:bukkit_admin
+    - g:dynmap_admin
     - g:groupmanager_admin
     - g:irc_admin
     - g:logblock_admin
@@ -21,6 +22,7 @@ groups:
     - g:nocheat_admin
     - g:titlemanager_admin
     - g:vanish_admin
+    - g:worldedit_admin
     - g:worldguard_admin
     permissions: []
   Builder:
@@ -33,6 +35,7 @@ groups:
     - Guest
     - g:bukkit_builder
     - g:chestshoplogger_builder
+    - g:dynmap_builder
     - g:essentials_builder_survival
     - g:statistics_builder
     - g:worldguard_builder
@@ -58,6 +61,9 @@ groups:
     - essentials.back.ondeath
     - essentials.sethome
     - essentials.sethome.multiple.pvp
+    - essentials.signs.color
+    - essentials.signs.format
+    - essentials.signs.magic
   Donator:
     default: false
     info:
@@ -81,6 +87,7 @@ groups:
     - g:banman_guard
     - g:blacklist_guard
     - g:bukkit_guard
+    - g:dynmap_guard
     - g:editablesigns_guard
     - g:groupmanager_guard
     - g:itemcase_guard
@@ -94,6 +101,7 @@ groups:
     - g:titlemanager_guard
     - g:vanish_guard
     - g:whois_guard
+    - g:worldedit_guard
     - g:worldguard_guard
     permissions: []
   Guest:
@@ -103,6 +111,7 @@ groups:
       prefix: '&7[Guest]&e'
       suffix: '&r'
     inheritance:
+    - essentials.chat.url
     - g:banman_default
     - g:bukkit_default
     - g:editablesigns_default
@@ -127,10 +136,13 @@ groups:
     - g:banman_mod
     - g:blacklist_mod
     - g:bukkit_mod
+    - g:dynmap_mod
     - g:logblock_mod
+    - g:lwc_mod
     - g:multiverse_mod
     - g:nocheat_mod
     - g:titlemanagerwe_mod
+    - g:worldedit_mod
     - g:worldguard_mod
     permissions: []
   Owner:
@@ -153,6 +165,7 @@ groups:
     - g:banman_trusted
     - g:border_trusted
     - g:bukkit_trusted
+    - g:dynmap_trusted
     - g:logblock_trusted
     - g:multiverse_trusted
     - g:nocheat_trusted
