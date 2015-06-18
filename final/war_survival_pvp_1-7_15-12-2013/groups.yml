@@ -13,6 +13,7 @@ groups:
     - g:border_admin
     - g:bukkit_admin
     - g:dynmap_admin
+    - g:essentials_admin
     - g:groupmanager_admin
     - g:irc_admin
     - g:logblock_admin
@@ -89,6 +90,8 @@ groups:
     - g:bukkit_guard
     - g:dynmap_guard
     - g:editablesigns_guard
+    - g:essentials_guard
+    - g:essentials_trusted
     - g:groupmanager_guard
     - g:itemcase_guard
     - g:logblock_guard
@@ -103,8 +106,7 @@ groups:
     - g:whois_guard
     - g:worldedit_guard
     - g:worldguard_guard
-    permissions:
-    - essentials.whois
+    permissions: []
   Guest:
     default: true
     info:
@@ -138,6 +140,7 @@ groups:
     - g:blacklist_mod
     - g:bukkit_mod
     - g:dynmap_mod
+    - g:essentials_mod
     - g:logblock_mod
     - g:lwc_mod
     - g:multiverse_mod
