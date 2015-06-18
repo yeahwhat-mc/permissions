@@ -21,16 +21,12 @@ g:bukkit_builder:
 g:bukkit_builder_creative:
     permissions:
     - bukkit.command.teleport
-    - bukkit.command.give
     - bukkit.command.gamemode
     - bukkit.command.spawnpoint
     - bukkit.command.enchant
     - minecraft.command.tp
-    - minecraft.command.give
     - minecraft.command.gamemode
     - minecraft.command.spawnpoint
-    - minecraft.command.enchant
-
 
 g:bukkit_trusted:
     permissions:

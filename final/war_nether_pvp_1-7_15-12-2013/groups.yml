@@ -114,7 +114,6 @@ groups:
       prefix: '&7[Guest]&e'
       suffix: '&r'
     inheritance:
-    - essentials.chat.url
     - g:banman_default
     - g:bukkit_default
     - g:editablesigns_default
@@ -125,6 +124,7 @@ groups:
     - g:statistics_default
     - g:whois_default
     permissions:
+    - essentials.chat.url
     - essentials.spawn
   Moderator:
     default: false

@@ -223,12 +223,9 @@ groups:
     permissions:
     - bukkit.command.enchant
     - bukkit.command.gamemode
-    - bukkit.command.give
     - bukkit.command.spawnpoint
     - bukkit.command.teleport
-    - minecraft.command.enchant
     - minecraft.command.gamemode
-    - minecraft.command.give
     - minecraft.command.spawnpoint
     - minecraft.command.tp
   g:bukkit_default:

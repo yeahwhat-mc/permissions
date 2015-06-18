@@ -2,12 +2,13 @@ groups:
   Guest:
     permissions:
     - essentials.spawn
+    - essentials.chat.url
+
     inheritance:
     - -g:craftbook_default
     - -g:essentials_default
     - -g:animals_default
     - -g:worldedit_default
-    - essentials.chat.url
 
   Builder:
     permissions:
