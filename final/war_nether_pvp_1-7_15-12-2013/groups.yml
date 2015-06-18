@@ -108,7 +108,8 @@ groups:
     - g:whois_guard
     - g:worldedit_guard
     - g:worldguard_guard
-    permissions: []
+    permissions:
+    - essentials.afk
   Guest:
     default: true
     info:

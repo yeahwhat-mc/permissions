@@ -64,6 +64,9 @@ groups:
     - -g:essentials_donator
 
   Guard:
+    permissions:
+    - essentials.afk
+
     inheritance:
     - g:essentials_default
     - g:essentials_builder
