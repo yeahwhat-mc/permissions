@@ -65,8 +65,8 @@ groups:
 
   Guard:
     inheritance:
-    - g:essentials_guard
-    - g:essentials_trusted
+    - +g:essentials_guard
+    - +g:essentials_trusted
     - -g:chestshop_guard
     - -g:craftconomy_guard
     - -g:libsdisguises_guard

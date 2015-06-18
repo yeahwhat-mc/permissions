@@ -81,6 +81,8 @@ groups:
       prefix: '&7[Guard]&b'
       suffix: '&r'
     inheritance:
+    - +g:essentials_guard
+    - +g:essentials_trusted
     - Trusted
     - g:actionannouncer_guard
     - g:adminprivatechat_guard
@@ -91,7 +93,6 @@ groups:
     - g:dynmap_guard
     - g:editablesigns_guard
     - g:essentials_guard
-    - g:essentials_trusted
     - g:groupmanager_guard
     - g:itemcase_guard
     - g:logblock_guard
