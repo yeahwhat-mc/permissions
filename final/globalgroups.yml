@@ -1435,7 +1435,6 @@ groups:
     - customwhois.custom.jailed.*
     - customwhois.custom.location.*
     - customwhois.custom.location.*
-    - customwhois.custom.money.*
     - customwhois.custom.muted.*
     - customwhois.custom.op.*
     - customwhois.whois.others
@@ -1445,6 +1444,7 @@ groups:
     - +customwhois.custom.location.war_end_pvp_1-7_15-12-2013
     - +customwhois.custom.location.war_nether_pvp_1-7_15-12-2013
     - +customwhois.custom.location.war_survival_pvp_1-7_15-12-2013
+    - customwhois.custom.money.*
   g:worldedit_admin:
     permissions:
     - worldedit.global-mask

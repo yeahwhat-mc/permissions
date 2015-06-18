@@ -5,7 +5,6 @@ g:whois_default:
     - customwhois.custom.hunger.*
     - customwhois.custom.exp.*
     - customwhois.custom.location.*
-    - customwhois.custom.money.*
     - customwhois.custom.ip.*
     - customwhois.custom.gamemode.*
     - customwhois.custom.godmode.*
@@ -21,6 +20,7 @@ g:whois_default:
 
 g:whois_guard:
     permissions:
+    - customwhois.custom.money.*
     - +customwhois.custom.location.war_survival_pvp_1-7_15-12-2013
     - +customwhois.custom.location.war_nether_pvp_1-7_15-12-2013
     - +customwhois.custom.location.war_end_pvp_1-7_15-12-2013
