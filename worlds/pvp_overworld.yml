@@ -63,6 +63,9 @@ groups:
     - -g:essentials_donator
 
   Guard:
+    permissions:
+    - essentials.whois
+
     inheritance:
     - -g:chestshop_guard
     - -g:craftconomy_guard
