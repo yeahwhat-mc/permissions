@@ -1,0 +1,21 @@
+g:customwhois_builder:
+    permissions:
+    - customwhois.whois.self
+    - customwhois.custom.nick
+    - customwhois.custom.health
+    - customwhois.custom.hunger
+    - customwhois.custom.exp
+    - customwhois.custom.location
+    - customwhois.custom.ip
+    - customwhois.custom.gamemode
+    - customwhois.custom.godmode
+    - customwhois.custom.op
+    - customwhois.custom.flying
+    - customwhois.custom.afk
+    - customwhois.custom.jailed
+    - customwhois.custom.muted
+
+g:customwhois_guard:
+    permissions:
+    - customwhois.custom.money
+    - customwhois.whois.others
