@@ -6,9 +6,9 @@ import os.path
 import yaml
 
 CONFIGPATH = "config.yml"
-PLUGINSPATH = "plugins/"
-WORLDSPATH = "worlds/"
-OUTPUTPATH = "final/"
+PLUGINSPATH = "plugins"
+WORLDSPATH = "worlds"
+OUTPUTPATH = "final"
 SEPERATOR = "_"
 
 def update_groups(groups, update):
