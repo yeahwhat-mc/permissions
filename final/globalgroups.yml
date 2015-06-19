@@ -590,26 +590,6 @@ groups:
     - craftconomy.account.create
     - craftconomy.account.delete
     - craftconomy.bank.delete
-  g:customwhois_builder:
-    permissions:
-    - customwhois.custom.afk
-    - customwhois.custom.exp
-    - customwhois.custom.flying
-    - customwhois.custom.gamemode
-    - customwhois.custom.godmode
-    - customwhois.custom.health
-    - customwhois.custom.hunger
-    - customwhois.custom.ip
-    - customwhois.custom.jailed
-    - customwhois.custom.location
-    - customwhois.custom.muted
-    - customwhois.custom.nick
-    - customwhois.custom.op
-    - customwhois.whois.self
-  g:customwhois_guard:
-    permissions:
-    - customwhois.custom.money
-    - customwhois.whois.others
   g:dynmap_admin:
     permissions:
     - dynmap.cancelrender

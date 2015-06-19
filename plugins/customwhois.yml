@@ -1,21 +1,26 @@
-g:customwhois_builder:
+g:whois_default:
     permissions:
     - customwhois.whois.self
-    - customwhois.custom.nick
-    - customwhois.custom.health
-    - customwhois.custom.hunger
-    - customwhois.custom.exp
-    - customwhois.custom.location
-    - customwhois.custom.ip
-    - customwhois.custom.gamemode
-    - customwhois.custom.godmode
-    - customwhois.custom.op
-    - customwhois.custom.flying
-    - customwhois.custom.afk
-    - customwhois.custom.jailed
-    - customwhois.custom.muted
-
-g:customwhois_guard:
-    permissions:
-    - customwhois.custom.money
     - customwhois.whois.others
+    - customwhois.custom.hunger.*
+    - customwhois.custom.exp.*
+    - customwhois.custom.location.*
+    - customwhois.custom.ip.*
+    - customwhois.custom.gamemode.*
+    - customwhois.custom.godmode.*
+    - customwhois.custom.op.*
+    - customwhois.custom.flying.*
+    - customwhois.custom.afk.*
+    - customwhois.custom.jailed.*
+    - customwhois.custom.muted.*
+    - customwhois.custom.location.*
+    - -customwhois.custom.location.war_survival_pvp_1-7_15-12-2013
+    - -customwhois.custom.location.war_nether_pvp_1-7_15-12-2013
+    - -customwhois.custom.location.war_end_pvp_1-7_15-12-2013
+
+g:whois_guard:
+    permissions:
+    - customwhois.custom.money.*
+    - +customwhois.custom.location.war_survival_pvp_1-7_15-12-2013
+    - +customwhois.custom.location.war_nether_pvp_1-7_15-12-2013
+    - +customwhois.custom.location.war_end_pvp_1-7_15-12-2013

@@ -36,7 +36,6 @@ groups:
     - Guest
     - g:bukkit_builder
     - g:chestshoplogger_builder
-    - g:customwhois_builder
     - g:dynmap_builder
     - g:essentials_builder_survival
     - g:statistics_builder
@@ -89,7 +88,6 @@ groups:
     - g:banman_guard
     - g:blacklist_guard
     - g:bukkit_guard
-    - g:customwhois_guard
     - g:dynmap_guard
     - g:editablesigns_guard
     - g:essentials_builder

@@ -47,7 +47,6 @@ groups:
     - g:craftbook_builder
     - g:craftbookic_builder
     - g:craftconomy_builder
-    - g:customwhois_builder
     - g:dynmap_builder
     - g:essentials_builder
     - g:essentials_builder_survival
@@ -86,7 +85,6 @@ groups:
     - g:bukkit_guard
     - g:chestshop_guard
     - g:craftconomy_guard
-    - g:customwhois_guard
     - g:dynmap_guard
     - g:editablesigns_guard
     - g:essentials_guard
