@@ -1,40 +1,44 @@
 #!/usr/bin/env python
 
-import yaml
-import os.path
-import collections
 import copy
-from pprint import pprint
+import os
+import os.path
+import yaml
 
-configpath = "config.yml"
-groupspath = "groups/"
-worldspath = "worlds/"
-outputpath = "final/"
+CONFIGPATH = "config.yml"
+PLUGINSPATH = "plugins/"
+WORLDSPATH = "worlds/"
+OUTPUTPATH = "final/"
+SEPERATOR = "_"
 
-def merge_worlds(world, update):
-    groups = world["groups"]
-    for group, prop in update["groups"].items():
-        if group not in groups:
-            groups[group] = fixgroup(copy.deepcopy(prop))
+def update_groups(groups, update):
+    """Updates groups with new nodes from another dict of groups"""
+    for groupname, nodes in update.items():
+        # If the new group isn't in the old groups, just copy it and skip 
+        # everything else
+        if groupname not in groups:
+            groups[groupname] = fixgroup(copy.deepcopy(nodes))
+            continue
 
-    for group, prop in update["groups"].items():
-        newgroup = groups[group]
-        if "default" in prop:
-            newgroup["default"] = prop["default"]
-        if "info" in prop:
-            if "info" in newgroup:
-                for key, val in prop["info"].items():
-                    newgroup["info"][key] = val
+        group = groups[groupname]
+        if "default" in nodes:
+            group["default"] = nodes["default"]
+        if "info" in nodes:
+            if "info" in group:
+                group["info"].update(nodes["info"])
             else:
-                newgroup["info"] = copy.copy(prop["info"])
-        if "permissions" in prop:
-            addnodes(newgroup["permissions"], prop["permissions"])
-        if "inheritance" in prop:
-            addnodes(newgroup["inheritance"], prop["inheritance"])
+                group["info"] = copy.copy(nodes["info"])
+        if "permissions" in nodes:
+            addnodes(group["permissions"], nodes["permissions"])
+        if "inheritance" in nodes:
+            addnodes(group["inheritance"], nodes["inheritance"])
+
+        groups[groupname] = group
     return groups
 
-# Adds missing values to a group to prevent key errors
+
 def fixgroup(group):
+    """Adds missing values to a group to prevent key errors"""
     if "permissions" not in group:
         group["permissions"] = list()
     if "inheritance" not in group:
@@ -43,10 +47,10 @@ def fixgroup(group):
         group["default"] = False
     return group
 
-# Merges a list of permission nodes and checks the prefixes
+
 def addnodes(nodeset, nodes):
+    """Merges a list of permission nodes and checks the prefixes"""
     for node in nodes:
-        # Skip existing nodes
         if node in nodeset:
             continue
         elif node.startswith("-"):
@@ -65,105 +69,146 @@ def addnodes(nodeset, nodes):
                 nodeset.append(node)
     return nodeset
 
-f = open(configpath, "r")
-config = yaml.load(f)
-f.close()
 
-cworlds = config["worlds"]
-cgroups = config["groups"]
+with open(CONFIGPATH, "r") as configfile:
+    config = yaml.load(configfile)
+
+worldconfigs = config["worlds"]
+groupconfigs = config["groups"]
+remaining = set(worldconfigs)
 worldorder = []
-for world, prop in cworlds.items():
-    if "inheritances" not in prop or not prop["inheritances"]:
-        worldorder.append(world)
-
-newworlds = True
-while newworlds:
-    remaining = set(world for world in cworlds if world not in worldorder)
-    newworlds = set()
-    for world in remaining:
-        if all(inherit in worldorder for inherit in cworlds[world]["inheritances"]):
-            newworlds.add(world)
-            worldorder.append(world)
-
-if remaining:
-    print("ERROR: Could not resolve inheritances for", remaining)
-    exit()
 
 globalgroups = {}
-for filename in os.listdir(groupspath):
-    filepath = os.path.join(groupspath, filename)
-    f = open(filepath, "r")
-    filegroups = yaml.load(f)
-    f.close()
-    for group, nodes in filegroups.items():
-        if group in globalgroups:
-            print("WARNING: Group", group, "in file", filename, "already defined, ignoring it")
-        else:
-            globalgroups[group] = nodes
-        if "permissions" not in nodes:
-            print("WARNING: No permissions section in group", group)
-        else:
-            globalgroups[group]["permissions"].sort()
-
 customworlds = {}
-for filename in os.listdir(worldspath):
-    filepath = os.path.join(worldspath, filename)
+worldperms = {}
+
+# Find all the worlds without inheritances and add them to worldorder
+for world, nodes in worldconfigs.items():
+    if "inheritance" not in nodes or not nodes["inheritance"]:
+        worldorder.append(world)
+        remaining.remove(world)
+
+while remaining:
+    newworlds = set()
+    for world in remaining:
+        # Check if all inheritances are satisfied
+        if all(inheritance in worldorder for inheritance in 
+                worldconfigs[world]["inheritance"]):
+            newworlds.add(world)
+    
+    # We have remaining worlds and can't resolve the inheritances
+    if not newworlds:
+        raise RuntimeError("Could not resolve inheritances for " + 
+            str(remaining))
+
+    worldorder += newworlds
+    for world in newworlds:
+        remaining.remove(world)
+
+
+# Load the global groups
+for filename in os.listdir(PLUGINSPATH):
+    filepath = os.path.join(PLUGINSPATH, filename)
+    with open(filepath, "r") as pluginfile:
+        plugingroups = yaml.load(pluginfile)
+
+    for group, nodes in plugingroups.items():
+        if group in globalgroups:
+            print("WARNING: Group " + group + " in file " + filename + 
+                " already defined, ignoring it")
+            continue
+        if "permissions" not in nodes:
+            print("WARNING: No permissions section in group " + group + 
+                ", ignoring it")
+            continue
+        
+        globalgroups[group] = nodes
+        globalgroups[group]["permissions"].sort()
+
+# Load custom world permissions
+for filename in os.listdir(WORLDSPATH):
+    filepath = os.path.join(WORLDSPATH, filename)
     worldname = os.path.splitext(filename)[0]
-    f = open(filepath, "r")
-    worlddata = yaml.load(f)
-    f.close()
+    with open(filepath, "r") as worldfile:
+        worlddata = yaml.load(worldfile)
+
     customworlds[worldname] = worlddata
 
-worldperms = {}
+# Generate world permissions
 for world in worldorder:
-    worldconfig = cworlds[world]
-    worlddata = {}
-    if not "groups" in worlddata:
-        worlddata["groups"] = {}
-    if "inheritances" in worldconfig:
-        for inheritworld in worldconfig["inheritances"]:
-            merge_worlds(worlddata, worldperms[inheritworld])
-    for group in worlddata["groups"]:
-        fixgroup(worlddata["groups"][group])
+    worldconfig = worldconfigs[world]
+    groups = {}
+    
+    # Merge inheritances
+    if "inheritance" in worldconfig:
+        for inheritworld in worldconfig["inheritance"]:
+            update_groups(groups, worldperms[inheritworld]["groups"])
+    
+    # Merge custom world nodes
     if world in customworlds:
-        for group in customworlds[world]["groups"]:
-            if group not in worlddata["groups"]:
-                worlddata["groups"][group] = fixgroup({})
+        update_groups(groups, customworlds[world]["groups"])
+
+    # Add the matching global groups
     if "suffixes" in worldconfig:
         suffixes = worldconfig["suffixes"]
-        for pgroup in globalgroups:
-            pgroupparts = pgroup.split("_")
-            if len(pgroupparts) < 2:
-                print("WARNING: Group", pgroup, "has an invalid name and will be ignored")
+        for globgroup in globalgroups:
+            groupparts = globgroup.split(SEPERATOR)
+            # Global group names have to be in the format
+            # <plugin>_<group>_[world]
+            if not 2 <= len(groupparts) <= 3:
+                print("WARNING: Group" + globgroup + "has an invalid name and "
+                    "will be ignored")
                 continue
-            elif (len(pgroupparts) == 2 and "" in suffixes or 
-                len(pgroupparts) >= 3 and pgroupparts[2] in suffixes):
-                    for group in (group for group in worlddata["groups"] if group in cgroups):
-                        if pgroupparts[1] in cgroups[group] and pgroup not in worlddata["groups"][group]["inheritance"]:
-                            worlddata["groups"][group]["inheritance"].append(pgroup)
-    if world in customworlds:
-        merge_worlds(worlddata, customworlds[world])
-    for group, prop in worlddata["groups"].items():
-        prop["permissions"].sort()
-        prop["inheritance"].sort()
 
-    worldperms[world] = worlddata
+            plugin = groupparts[0]
+            groupsuffix = groupparts[1]
+            if len(groupparts) == 2:
+                worldsuffix = ""
+            elif len(groupparts) == 3:
+                worldsuffix = groupparts[2]
 
-f = open(os.path.join(outputpath, "globalgroups.yml"), "w")
-yaml.dump({"groups": globalgroups}, f, default_flow_style=False)
-f.close()
+            # The group has the wrong world suffix
+            if worldsuffix not in suffixes:
+                continue
+            
+            for group in groups:
+                # Current group doesn't have any suffixes
+                if group not in groupconfigs:
+                    continue
+                # The global group is already added
+                if globgroup in groups[group]["inheritance"]:
+                    continue
+                
+                if groupsuffix in groupconfigs[group]:
+                    groups[group]["inheritance"].append(globgroup)
 
-for world in cworlds:
-    if "folder" not in cworlds[world]:
+    for group, nodes in groups.items():
+        nodes["permissions"].sort()
+        nodes["inheritance"].sort()
+
+    worldperms[world] = {"groups": groups}
+
+# Make sure the output directory exists
+if not os.path.exists(OUTPUTPATH):
+    os.makedirs(OUTPUTPATH)
+
+with open(os.path.join(OUTPUTPATH, "globalgroups.yml"), "w") as globalsfile:
+    yaml.dump({"groups": globalgroups}, globalsfile, default_flow_style=False)
+
+for world in worldconfigs:
+    # World doesn't have a custom folder name
+    if "folder" not in worldconfigs[world]:
         folder = world
-    elif cworlds[world]["folder"] == '':
+    # World is virtual and doesn't get saved
+    elif worldconfigs[world]["folder"] == '':
         continue
     else:
-        folder = cworlds[world]["folder"]
+        folder = worldconfigs[world]["folder"]
     
-    worlddir = os.path.join(outputpath, folder)
+    worlddir = os.path.join(OUTPUTPATH, folder)
+    # Make sure the world directry exists
     if not os.path.exists(worlddir):
         os.makedirs(worlddir)
-    f = open(os.path.join(worlddir, "groups.yml"), "w")
-    yaml.dump(worldperms[world], f, default_flow_style=False)
-    f.close()
+    
+    with open(os.path.join(worlddir, "groups.yml"), "w") as worldfile:
+        yaml.dump(worldperms[world], worldfile, default_flow_style=False)
