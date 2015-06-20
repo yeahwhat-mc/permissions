@@ -1574,6 +1574,7 @@ groups:
   g:worldguard_builder:
     permissions:
     - worldguard.region.addmember.own.*
+    - worldguard.region.flag.flags.chest-access.*
     - worldguard.region.flag.flags.farewell.*
     - worldguard.region.flag.flags.greeting.*
     - worldguard.region.flag.flags.lighter.*

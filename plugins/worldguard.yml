@@ -14,6 +14,7 @@ g:worldguard_builder:
     - worldguard.region.flag.flags.greeting.*
     - worldguard.region.flag.flags.farewell.*
     - worldguard.region.flag.flags.passthrough.*
+    - worldguard.region.flag.flags.chest-access.*
 
 g:worldguard_builder_creative:
     permissions:
