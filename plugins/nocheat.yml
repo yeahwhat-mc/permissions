@@ -4,6 +4,7 @@ g:nocheat_trusted:
     - nocheatplus.command.plugins
     - nocheatplus.command.version
     - nocheatplus.command.commands
+    - nocheatplus.checks
 
 g:nocheat_guard:
     permissions:

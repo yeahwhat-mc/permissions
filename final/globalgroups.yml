@@ -1338,6 +1338,7 @@ groups:
     - nocheatplus.command.unexempt
   g:nocheat_trusted:
     permissions:
+    - nocheatplus.checks
     - nocheatplus.command.commands
     - nocheatplus.command.lag
     - nocheatplus.command.plugins
