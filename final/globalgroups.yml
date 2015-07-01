@@ -699,6 +699,7 @@ groups:
     - essentials.whois
   g:essentials_builder_creative:
     permissions:
+    - -essentials.enchantments.allowunsafe
     - essentials.enchant
     - essentials.enchantments.*
     - essentials.enderchest
@@ -913,6 +914,7 @@ groups:
     - essentials.worlds.war_survival_pvp_1-7_15-12-2013
   g:essentials_mod:
     permissions:
+    - +essentials.enchantments.allowunsafe
     - essentials.antioch
     - essentials.ban
     - essentials.ban.notify
@@ -927,7 +929,6 @@ groups:
     - essentials.delwarp
     - essentials.enchant
     - essentials.enchantments.*
-    - essentials.enchantments.allowunsafe
     - essentials.exp.give
     - essentials.exp.give.others
     - essentials.exp.others

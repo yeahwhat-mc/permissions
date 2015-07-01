@@ -115,6 +115,7 @@ g:essentials_builder_creative:
     - essentials.enderchest
     - essentials.enchant
     - essentials.enchantments.*
+    - -essentials.enchantments.allowunsafe
     - essentials.exp.set
     - essentials.exp.give
     - essentials.firework
@@ -258,7 +259,7 @@ g:essentials_mod:
     - essentials.break.bedrock
     - essentials.enchant
     - essentials.enchantments.*
-    - essentials.enchantments.allowunsafe
+    - +essentials.enchantments.allowunsafe
     - essentials.fly.others
     - essentials.gamemode.others
     - essentials.itemspawn.*
