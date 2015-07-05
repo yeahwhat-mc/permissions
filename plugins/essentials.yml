@@ -241,6 +241,9 @@ g:essentials_guard:
     - essentials.chat.spy
     - essentials.signs.protection.override
     - essentials.signs.trade.override
+    - essentials.spawnmob
+    - essentials.spawnmob.*
+    - essentials.spawnmob.stack
     - essentials.nocommandcost.all
     - essentials.joinfullserver
     - essentials.nick
@@ -273,6 +276,7 @@ g:essentials_mod:
     - essentials.feed.others
     - essentials.heal.others
     - essentials.god.others
+    - essentials.itemspawn.meta-vanilla
     - essentials.kit.others
     - essentials.ptime.others
     - essentials.speed.others
@@ -294,9 +298,6 @@ g:essentials_mod:
     - essentials.lightning
     - essentials.lightning.others
     - essentials.setjail
-    - essentials.spawnmob
-    - essentials.spawnmob.*
-    - essentials.spawnmob.stack
     - essentials.sudo
     - essentials.tempban.unlimited
     - essentials.unban

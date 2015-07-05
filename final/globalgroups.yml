@@ -882,6 +882,9 @@ groups:
     - essentials.signs.protection.override
     - essentials.signs.trade.override
     - essentials.spawn.others
+    - essentials.spawnmob
+    - essentials.spawnmob.*
+    - essentials.spawnmob.stack
     - essentials.speed
     - essentials.speed.fly
     - essentials.speed.walk
@@ -943,6 +946,7 @@ groups:
     - essentials.god.others
     - essentials.heal.others
     - essentials.itemspawn.*
+    - essentials.itemspawn.meta-vanilla
     - essentials.kit.others
     - essentials.lightning
     - essentials.lightning.others
@@ -955,9 +959,6 @@ groups:
     - essentials.signs.create.*
     - essentials.spawner
     - essentials.spawner.*
-    - essentials.spawnmob
-    - essentials.spawnmob.*
-    - essentials.spawnmob.stack
     - essentials.speed.bypass
     - essentials.speed.others
     - essentials.sudo
