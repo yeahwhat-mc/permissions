@@ -745,7 +745,6 @@ groups:
     - -stats.cmd.book
   g:essentials_default:
     permissions:
-    - -essentials.gamemode.spectator
     - -essentials.worlds.war_end_pvp_1-7_15-12-2013
     - -essentials.worlds.war_nether_pvp_1-7_15-12-2013
     - -essentials.worlds.war_survival_pvp_1-7_15-12-2013
@@ -838,7 +837,6 @@ groups:
     - essentials.fly
     - essentials.fly.safelogin
     - essentials.gamemode
-    - essentials.gamemode.spectator
     - essentials.gc
     - essentials.getpos.others
     - essentials.give

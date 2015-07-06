@@ -56,7 +56,6 @@ g:essentials_default:
     - essentials.signs.use.time
     - essentials.signs.use.balance
     - essentials.chat.url
-    - -essentials.gamemode.spectator
     - -essentials.worlds.war_end_pvp_1-7_15-12-2013
     - -essentials.worlds.war_nether_pvp_1-7_15-12-2013
     - -essentials.worlds.war_survival_pvp_1-7_15-12-2013
@@ -252,7 +251,6 @@ g:essentials_guard:
     - essentials.nick.format
     - essentials.chat.color
     - essentials.chat.magic
-    - essentials.gamemode.spectator
     - essentials.worlds.war_end_pvp_1-7_15-12-2013
     - essentials.worlds.war_nether_pvp_1-7_15-12-2013
     - essentials.worlds.war_survival_pvp_1-7_15-12-2013
