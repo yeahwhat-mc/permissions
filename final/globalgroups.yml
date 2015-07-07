@@ -1462,7 +1462,9 @@ groups:
     - worldedit.navigation.unstuck
   g:worldedit_donator_creative:
     permissions:
+    - worldedit.navigation.jumpto.command
     - worldedit.navigation.jumpto.tool
+    - worldedit.navigation.thru.command
     - worldedit.navigation.thru.tool
   g:worldedit_guard:
     permissions:
@@ -1475,9 +1477,7 @@ groups:
     - worldedit.navigation.ceiling
     - worldedit.navigation.descend
     - worldedit.navigation.jumpto.command
-    - worldedit.navigation.jumpto.command
     - worldedit.navigation.jumpto.tool
-    - worldedit.navigation.thru.command
     - worldedit.navigation.thru.command
     - worldedit.navigation.thru.tool
     - worldedit.navigation.up
