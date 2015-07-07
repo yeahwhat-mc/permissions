@@ -43,7 +43,9 @@ g:worldedit_guard:
     - worldedit.remove
     - worldedit.limit
     - worldedit.navigation.jumpto.tool
+    - worldedit.navigation.jumpto.command
     - worldedit.navigation.thru.tool
+    - worldedit.navigation.thru.command
 
 g:worldedit_mod:
     permissions:
