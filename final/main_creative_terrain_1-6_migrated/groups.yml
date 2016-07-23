@@ -26,7 +26,6 @@ groups:
     - g:multiverse_admin
     - g:nocheat_admin
     - g:titlemanager_admin
-    - g:vanish_admin
     - g:vote_admin
     - g:worldedit_admin
     - g:worldguard_admin
@@ -104,7 +103,6 @@ groups:
     - g:nocheat_guard
     - g:ping_guard
     - g:titlemanager_guard
-    - g:vanish_guard
     - g:vote_guard
     - g:whois_guard
     - g:worldedit_guard

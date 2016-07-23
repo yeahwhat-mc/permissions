@@ -1375,25 +1375,6 @@ groups:
     permissions:
     - titlemanager.command.abroadcast
     - titlemanager.command.broadcast
-  g:vanish_admin:
-    permissions:
-    - vanish.adminalerts
-    - vanish.permtest.all
-    - vanish.reload
-  g:vanish_guard:
-    permissions:
-    - vanish.effects.toggle.all
-    - vanish.fakeannounce
-    - vanish.list
-    - vanish.nofollow
-    - vanish.nohunger
-    - vanish.notrample
-    - vanish.preventincomingdamage
-    - vanish.see
-    - vanish.silentchests
-    - vanish.statusupdates
-    - vanish.toggle.all
-    - vanish.vanish
   g:vote_admin:
     permissions:
     - vote.reload
