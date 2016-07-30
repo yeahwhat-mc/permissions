@@ -711,6 +711,9 @@ groups:
     - essentials.fly
     - essentials.fly.safelogin
     - essentials.gamemode
+    - essentials.gamemode.adventure
+    - essentials.gamemode.creative
+    - essentials.gamemode.survival
     - essentials.heal
     - essentials.item
     - essentials.itemspawn.item-all
@@ -837,6 +840,9 @@ groups:
     - essentials.fly
     - essentials.fly.safelogin
     - essentials.gamemode
+    - essentials.gamemode.adventure
+    - essentials.gamemode.creative
+    - essentials.gamemode.survival
     - essentials.gc
     - essentials.getpos.others
     - essentials.give

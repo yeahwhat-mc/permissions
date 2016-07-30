@@ -94,6 +94,9 @@ g:essentials_builder_creative:
     - essentials.fly
     - essentials.fly.safelogin
     - essentials.gamemode
+    - essentials.gamemode.creative
+    - essentials.gamemode.survival
+    - essentials.gamemode.adventure
     - essentials.item
     - essentials.itemspawn.item-all
     - essentials.itemspawn.meta-title
@@ -161,6 +164,9 @@ g:essentials_guard:
     - essentials.fly
     - essentials.fly.safelogin
     - essentials.gamemode
+    - essentials.gamemode.creative
+    - essentials.gamemode.survival
+    - essentials.gamemode.adventure
     - essentials.give
     - essentials.item
     - essentials.itemspawn.item-all
