@@ -18,27 +18,15 @@ worlds:
         suffixes:
         - survival
     survival_new_end:
-        folder: main_end_normal_1-8_17-01-2015
+        folder: main_end_normal_1-10
         inheritance:
         - survival_overworld
     survival_new_nether:
-        folder: main_nether_normal_1-8_17-01-2015
+        folder: main_nether_normal_1-10
         inheritance:
         - survival_overworld
     survival_new_overworld:
-        folder: main_survival_normal_1-8_17-01-2015
-        inheritance:
-        - survival_overworld
-    pvp_end:
-        folder: war_end_pvp_1-7_15-12-2013
-        inheritance:
-        - pvp_overworld
-    pvp_nether:
-        folder: war_nether_pvp_1-7_15-12-2013
-        inheritance:
-        - pvp_overworld
-    pvp_overworld:
-        folder: war_survival_pvp_1-7_15-12-2013
+        folder: main_survival_normal_1-10
         inheritance:
         - survival_overworld
     creative_flatland:
@@ -49,18 +37,6 @@ worlds:
         - creative
     creative_terrain:
         folder: main_creative_terrain_1-6_migrated
-        inheritance:
-        - creative_flatland
-    creative_hub:
-        folder: main_creative_hub_1-6_migrated
-        inheritance:
-        - creative_flatland
-    creative_tettura:
-        folder: main_creative_tettura_1-6_migrated
-        inheritance:
-        - creative_flatland
-    theblock:
-        folder: minigame_creative_block_1-6_migrated
         inheritance:
         - creative_flatland
 
