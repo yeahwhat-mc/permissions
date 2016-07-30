@@ -1266,6 +1266,21 @@ groups:
   g:multiverse-nether_guard:
     permissions:
     - multiverse.netherportals.show
+  g:multiverse-portals_admin:
+    permissions:
+    - multiverse.portal.create
+    - multiverse.portal.modify
+    - multiverse.portal.remove
+  g:multiverse-portals_default:
+    permissions:
+    - multiverse.portal.access.*
+  g:multiverse-portals_guard:
+    permissions:
+    - multiverse.portal.debug
+    - multiverse.portal.givewand
+    - multiverse.portal.info
+    - multiverse.portal.list
+    - multiverse.portal.select
   g:multiverse_admin:
     permissions:
     - multiverse.core.config
@@ -1296,7 +1311,6 @@ groups:
     - multiverse.core.sleep
     - multiverse.core.spawn.self
     - multiverse.help
-    - multiverse.portal.access.*
     - multiverse.teleport.self.p
     - multiverse.teleport.self.w
   g:multiverse_guard:

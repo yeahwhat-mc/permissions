@@ -9,7 +9,6 @@ g:multiverse_default:
     - multiverse.core.list.worlds
     - multiverse.core.spawn.self
     - multiverse.core.sleep
-    - multiverse.portal.access.*
 
 g:multiverse_trusted:
     permissions:
@@ -78,6 +77,24 @@ g:multiverse-nether_admin:
     permissions:
     - multiverse.netherportals.link
     - multiverse.netherportals.unlink
+
+g:multiverse-portals_default:
+    permissions:
+    - multiverse.portal.access.*
+
+g:multiverse-portals_guard:
+    permissions:
+    - multiverse.portal.list
+    - multiverse.portal.select
+    - multiverse.portal.givewand
+    - multiverse.portal.info
+    - multiverse.portal.debug
+
+g:multiverse-portals_admin:
+    permissions:
+    - multiverse.portal.create
+    - multiverse.portal.remove
+    - multiverse.portal.modify
 
 #- multiverse.access.NAME
 #- multiverse.exempt.NAME

@@ -23,6 +23,7 @@ groups:
     - g:logblock_admin
     - g:multiverse-inv_admin
     - g:multiverse-nether_admin
+    - g:multiverse-portals_admin
     - g:multiverse_admin
     - g:nocheat_admin
     - g:titlemanager_admin
@@ -99,6 +100,7 @@ groups:
     - g:lwc_guard
     - g:multiverse-inv_guard
     - g:multiverse-nether_guard
+    - g:multiverse-portals_guard
     - g:multiverse_guard
     - g:nocheat_guard
     - g:ping_guard
@@ -125,6 +127,7 @@ groups:
     - g:essentials_default
     - g:groupmanager_default
     - g:irc_default
+    - g:multiverse-portals_default
     - g:multiverse_default
     - g:ping_default
     - g:statistics_default
