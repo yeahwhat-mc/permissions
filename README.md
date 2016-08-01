@@ -21,6 +21,7 @@ Python script to bake the GroupManager permissions on YEAHWHAT?!
 ## Requirements / Dependencies
 
 * Python
+* [PyYAML](http://pyyaml.org/)
 
 ## Version
 
@@ -29,3 +30,4 @@ Python script to bake the GroupManager permissions on YEAHWHAT?!
 ## License
 
 [MIT](LICENSE)
+
