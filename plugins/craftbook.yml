@@ -90,6 +90,8 @@ g:craftbook_admin:
     - craftbook.mech.chunk
     - craftbook.mech.command
     - craftbook.mech.command.use
+    - craftbook.mech.recipes.add
+    - craftbook.mech.recipes.remove
 
 #- craftbook.mech.pistons.supersticky
 #- craftbook.mech.pistons.superpush
