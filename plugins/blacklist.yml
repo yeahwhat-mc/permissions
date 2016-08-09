@@ -29,6 +29,7 @@ g:blacklist_builder_end:
 
 g:blacklist_guard:
     permissions:
+    - blacklist.endcrystal
     - blacklist.tnt_minecart
     - blacklist.spawn_egg
     - blacklist.egg
