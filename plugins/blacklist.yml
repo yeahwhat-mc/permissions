@@ -4,24 +4,24 @@ g:blacklist_builder_survival:
 
 g:blacklist_trusted_survival:
     permissions:
-    - blacklist.tnt
-    - blacklist.sponge
     - blacklist.experience_bottle
-    - blacklist.minecarts
     - blacklist.hopper_minecart
+    - blacklist.minecarts
     - blacklist.slime_block
+    - blacklist.sponge
+    - blacklist.tnt
     - blacklist.wither_skull
 
 g:blacklist_trusted_creative:
     permissions:
-    - blacklist.tnt
-    - blacklist.egg
-    - blacklist.sponge
-    - blacklist.minecarts
-    - blacklist.hopper_minecart
-    - blacklist.slime_block
     - blacklist.barrierblock
+    - blacklist.egg
     - blacklist.experience_bottle
+    - blacklist.hopper_minecart
+    - blacklist.minecarts
+    - blacklist.slime_block
+    - blacklist.sponge
+    - blacklist.tnt
 
 g:blacklist_builder_end:
     permissions:
@@ -29,17 +29,17 @@ g:blacklist_builder_end:
 
 g:blacklist_guard:
     permissions:
-    - blacklist.endcrystal
-    - blacklist.tnt_minecart
-    - blacklist.spawn_egg
     - blacklist.egg
+    - blacklist.endcrystal
+    - blacklist.experience_bottle
     - blacklist.fire_charge
     - blacklist.mob_spawner
-    - blacklist.experience_bottle
+    - blacklist.spawn_egg
+    - blacklist.tnt_minecart
 
 g:blacklist_mod:
     permissions:
-    - blacklist.portals
     - blacklist.dragon_egg
-    - blacklist.wither_skull
+    - blacklist.portals
     - blacklist.silverfish
+    - blacklist.wither_skull
