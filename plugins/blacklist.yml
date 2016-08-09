@@ -23,6 +23,10 @@ g:blacklist_trusted_creative:
     - blacklist.barrierblock
     - blacklist.experience_bottle
 
+g:blacklist_builder_end:
+    permissions:
+    - blacklist.endcrystal
+
 g:blacklist_guard:
     permissions:
     - blacklist.tnt_minecart

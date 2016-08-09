@@ -7,6 +7,8 @@ worlds:
         folder: main_end_normal_1-7_15-12-2013
         inheritance:
         - survival_overworld
+        suffixes:
+        - end
     survival_nether:
         folder: main_nether_normal_1-7_15-12-2013
         inheritance:
@@ -21,6 +23,8 @@ worlds:
         folder: main_end_normal_1-10
         inheritance:
         - survival_overworld
+        suffixes:
+        - end
     survival_new_nether:
         folder: main_nether_normal_1-10
         inheritance:
